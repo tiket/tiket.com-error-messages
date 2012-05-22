@@ -69,7 +69,16 @@
   _gaq.push(['_setAccount', 'UA-22317351-2']);
   _gaq.push(['_setDomainName', 'tiket.com']);
   _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_setCampMediumKey', '500-internal-server']);
+  _gaq.push(['_setCustomVar',
+      5,                   // This custom var is set to slot #1.  Required parameter.
+      'Error Page',     // The name acts as a kind of category for the user activity.  Required parameter.
+      '500 internal server error',               // This value of the custom variable.  Required parameter.
+      3                    // Sets the scope to session-level.  Optional parameter.
+   ]);
+  _gaq.push(['_trackEvent',
+      'Error Page', // category of activity
+      '500 internal server error', // Action
+   ]);
   _gaq.push(['_trackPageview']);
 
   (function() {

@@ -69,7 +69,16 @@
   _gaq.push(['_setAccount', 'UA-22317351-2']);
   _gaq.push(['_setDomainName', 'tiket.com']);
   _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_setCampMediumKey', '408-request-timeout']);
+  _gaq.push(['_setCustomVar',
+      5,                   // This custom var is set to slot #1.  Required parameter.
+      'Error Page',     // The name acts as a kind of category for the user activity.  Required parameter.
+      '408 request timeout',               // This value of the custom variable.  Required parameter.
+      3                    // Sets the scope to session-level.  Optional parameter.
+   ]);
+  _gaq.push(['_trackEvent',
+      'Error Page', // category of activity
+      '408 request timeout', // Action
+   ]);
   _gaq.push(['_trackPageview']);
 
   (function() {
