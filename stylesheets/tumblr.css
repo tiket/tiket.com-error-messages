@@ -18,6 +18,9 @@
  width: 171px;
  height: 37px;
 }
+#page {
+  padding-top: 25px;
+}
 
 .wrapTop { background: #e4ecf2 url(http://www.tiket.com/images/tiket2/bg_menu_headtop.jpg) repeat-x top; }
 .topMenu { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; text-shadow: 0 1px 0 white; }
