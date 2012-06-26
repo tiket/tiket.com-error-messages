@@ -22,6 +22,10 @@
   padding-top: 25px;
 }
 
+@font-face { font-family: 'VAGbold'; src: url("http://www.tiket.com/fonts/vagrounded-bold-webfont.eot"); src: url("../fonts/vagrounded-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/vagrounded-bold-webfont.woff") format("woff"), url("../fonts/vagrounded-bold-webfont.ttf") format("truetype"), url("../fonts/vagrounded-bold-webfont.svg#VAGRoundedBoldRegular") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'VAGlight'; src: url("http://www.tiket.com/fonts/vagrounded-light-webfont.eot"); src: url("../fonts/vagrounded-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/vagrounded-light-webfont.woff") format("woff"), url("../fonts/vagrounded-light-webfont.ttf") format("truetype"), url("../fonts/vagrounded-light-webfont.svg#VAGRoundedBoldRegular") format("svg"); font-weight: normal; font-style: normal; }
+
 .wrapTop { background: #e4ecf2 url(http://www.tiket.com/images/tiket2/bg_menu_headtop.jpg) repeat-x top; }
 .topMenu { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; text-shadow: 0 1px 0 white; }
 .topMenu .left { float: left; width: 83.3333333333%; }
@@ -39,6 +43,42 @@
 .wrapFoot .navHead li a { *display: inline; }
 .wrapFoot .navHead li a:hover { background: #1b3252; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b6e9c), color-stop(100%, #1b3252)); background-image: -webkit-linear-gradient(#4b6e9c, #1b3252); background-image: -moz-linear-gradient(#4b6e9c, #1b3252); background-image: -o-linear-gradient(#4b6e9c, #1b3252); background-image: -ms-linear-gradient(#4b6e9c, #1b3252); background-image: linear-gradient(#4b6e9c, #1b3252); border-bottom: 3px solid #f3c049; padding-bottom: 7px; }
 .wrapFoot .navHead li:last-child { -webkit-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; -moz-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; }
+
+.wrapRich { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; padding-top: 15px; }
+.wrapRich .list { float: left; width: 14.11%; margin-right: 15px; }
+.wrapRich .list h3 { color: #234481; font-size: 14px; }
+.wrapRich .list ul { margin: 0; padding: 0; list-style: none; }
+.wrapRich .list ul li { font-size: 12px; margin-bottom: 10px; }
+.wrapRich .list ul li a { color: #333333; }
+.wrapRich .list ul li a:hover { color: #d9750f; }
+.wrapRich .right { float: right; width: 36.81%; }
+.wrapRich .right .totalPoint { text-align: right; }
+.wrapRich .right .totalPoint h3 { font-size: 14px; color: #234481; }
+.wrapRich .right .totalPoint h3 span { font-weight: normal; }
+.wrapRich .right .totalPoint ul.counter { margin: 0; padding: 3px; list-style: none; background: #e5eaf0; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; float: right; }
+.wrapRich .right .totalPoint ul.counter li { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e6eaec), color-stop(50%, #ffffff), color-stop(100%, #e6eaec)); background-image: -webkit-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -moz-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -o-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -ms-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: linear-gradient(#e6eaec, #ffffff, #e6eaec); -webkit-box-shadow: 0 1px 3px white inset; -moz-box-shadow: 0 1px 3px white inset; box-shadow: 0 1px 3px white inset; border-top: 1px solid #8292a9; border-bottom: 1px solid #8292a9; border-left: 1px solid #8292a9; font-size: 18px; font-weight: bold; color: #234481; text-align: center; float: left; padding: 5px 10px; }
+.wrapRich .right .totalPoint ul.counter li:first-child { -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; -ms-border-radius: 5px 0 0 5px; -o-border-radius: 5px 0 0 5px; border-radius: 5px 0 0 5px; }
+.wrapRich .right .totalPoint ul.counter li:last-child { -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -ms-border-radius: 0 5px 5px 0; -o-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0; border-right: 1px solid #8292a9; }
+.wrapRich .right .totalPoint p { margin: 5px 0; }
+.wrapRich .right .totalPoint p a { font-size: 11px; color: #999999; }
+.wrapRich .right .totalPoint p a:hover { text-decoration: underline; }
+.wrapRich .right .cs { background: url(http://www.tiket.com/images/tiket2/icon_cs.jpg) no-repeat bottom right; margin-top: 20px; margin-left: 35px; padding-bottom: 50px; }
+.wrapRich .right .cs .bubble { background: white; padding: 10px; width: 175px; position: relative; border: 1px solid #8292a9; -webkit-box-shadow: 0 0 0 4px #d7e5f0 inset; -moz-box-shadow: 0 0 0 4px #d7e5f0 inset; box-shadow: 0 0 0 4px #d7e5f0 inset; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+.wrapRich .right .cs .bubble:after { content: url(http://www.tiket.com/images/tiket2/bg_bubble_cs.png); position: absolute; right: -13px; bottom: 25px; }
+.wrapRich .right .cs .bubble h2 { margin: 0; font-size: 14px; }
+.wrapRich .right .cs .bubble h1 { margin: 5px 0; font-family: VAGbold, sans-serif; font-size: 24px; font-weight: normal; color: #d9750f; }
+.wrapRich .right .cs .bubble p { margin: 0; color: #234481; font-size: 12px; }
+
+.payment { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; padding-top: 20px; }
+.payment .accept { float: left; width: 66.667%; }
+.payment .accept h2 { font-size: 12px; color: #234481; }
+.payment .accept ul { margin: 0; padding: 0; list-style: none; }
+.payment .accept ul li { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; vertical-align: middle; *vertical-align: auto; }
+.payment .accept ul li { *display: inline; }
+.payment .accept p { font-size: 12px; }
+.payment .accept p a { color: #333333; }
+.payment .secured { float: right; width: 31.288%; text-align: right; }
+.payment .secured p { font-size: 12px; }
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
