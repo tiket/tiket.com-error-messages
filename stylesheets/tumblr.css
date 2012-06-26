@@ -18,6 +18,16 @@
  height: 37px;
 }
 
+.wrapTop { background: #e4ecf2 url(http://www.tiket.com/images/tiket2/bg_menu_headtop.jpg) repeat-x top; }
+.topMenu { margin: 0 auto; max-width: 978px; padding: 0 20px; position: relative; text-shadow: 0 1px 0 white; }
+.topMenu .left { float: left; width: 83.3333333333%; }
+.topMenu .left li { float: left; margin-top: 3px; border-right: 1px solid #b4bfcc; -webkit-box-shadow: 1px 0 0 white; -moz-box-shadow: 1px 0 0 white; box-shadow: 1px 0 0 white; font-size: 12px; }
+.topMenu .left a { color: #333333; padding: 11px 10px 12px; display: block; }
+.topMenu .left a:hover { background: white; }
+.topMenu .left .cs { background: url(http://www.tiket.com/images/tiket2/bg_cs_top.png) no-repeat left center; font-size: 14px; font-weight: bold; padding: 10px 10px 10px 30px; height: 100%; }
+.topMenu .left .cs span { color: #d9750f; }
+.topMenu .left .cs em { font-size: 12px; font-weight: normal; }
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
