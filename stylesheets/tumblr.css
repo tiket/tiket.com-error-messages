@@ -53,17 +53,7 @@
 .wrapRich .list ul li a { color: #333333; }
 .wrapRich .list ul li a:hover { color: #d9750f; }
 .wrapRich .right { float: right; width: 36.81%; }
-.wrapRich .right .totalPoint { text-align: right; }
-.wrapRich .right .totalPoint h3 { font-size: 14px; color: #234481; }
-.wrapRich .right .totalPoint h3 span { font-weight: normal; }
-.wrapRich .right .totalPoint ul.counter { margin: 0; padding: 3px; list-style: none; background: #e5eaf0; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; float: right; }
-.wrapRich .right .totalPoint ul.counter li { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e6eaec), color-stop(50%, #ffffff), color-stop(100%, #e6eaec)); background-image: -webkit-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -moz-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -o-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: -ms-linear-gradient(#e6eaec, #ffffff, #e6eaec); background-image: linear-gradient(#e6eaec, #ffffff, #e6eaec); -webkit-box-shadow: 0 1px 3px white inset; -moz-box-shadow: 0 1px 3px white inset; box-shadow: 0 1px 3px white inset; border-top: 1px solid #8292a9; border-bottom: 1px solid #8292a9; border-left: 1px solid #8292a9; font-size: 18px; font-weight: bold; color: #234481; text-align: center; float: left; padding: 5px 10px; }
-.wrapRich .right .totalPoint ul.counter li:first-child { -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; -ms-border-radius: 5px 0 0 5px; -o-border-radius: 5px 0 0 5px; border-radius: 5px 0 0 5px; }
-.wrapRich .right .totalPoint ul.counter li:last-child { -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; -ms-border-radius: 0 5px 5px 0; -o-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0; border-right: 1px solid #8292a9; }
-.wrapRich .right .totalPoint p { margin: 5px 0; }
-.wrapRich .right .totalPoint p a { font-size: 11px; color: #999999; }
-.wrapRich .right .totalPoint p a:hover { text-decoration: underline; }
-.wrapRich .right .cs { background: url(http://www.tiket.com/images/tiket2/icon_cs.jpg) no-repeat bottom right; margin-top: 20px; margin-left: 35px; padding-bottom: 50px; }
+.wrapRich .right .cs { background: url(http://www.tiket.com/images/tiket2/icon_cs.jpg) no-repeat bottom right; margin-top: 73px; margin-left: 35px; padding-bottom: 50px; }
 .wrapRich .right .cs .bubble { background: white; padding: 10px; width: 175px; position: relative; border: 1px solid #8292a9; -webkit-box-shadow: 0 0 0 4px #d7e5f0 inset; -moz-box-shadow: 0 0 0 4px #d7e5f0 inset; box-shadow: 0 0 0 4px #d7e5f0 inset; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 .wrapRich .right .cs .bubble:after { content: url(http://www.tiket.com/images/tiket2/bg_bubble_cs.png); position: absolute; right: -13px; bottom: 25px; }
 .wrapRich .right .cs .bubble h2 { margin: 0; font-size: 14px; }
