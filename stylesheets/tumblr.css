@@ -4,6 +4,7 @@
 }
 .pinned {
  top: 0;
+ position: relative;
 }
 .pinned .inner {
  border-bottom: none;
@@ -19,7 +20,7 @@
 }
 
 .wrapTop { background: #e4ecf2 url(http://www.tiket.com/images/tiket2/bg_menu_headtop.jpg) repeat-x top; }
-.topMenu { margin: 0 auto; max-width: 978px; padding: 0 20px; position: relative; text-shadow: 0 1px 0 white; }
+.topMenu { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; text-shadow: 0 1px 0 white; }
 .topMenu .left { float: left; width: 83.3333333333%; }
 .topMenu .left li { float: left; margin-top: 3px; border-right: 1px solid #b4bfcc; -webkit-box-shadow: 1px 0 0 white; -moz-box-shadow: 1px 0 0 white; box-shadow: 1px 0 0 white; font-size: 12px; }
 .topMenu .left a { color: #333333; padding: 11px 10px 12px; display: block; }
