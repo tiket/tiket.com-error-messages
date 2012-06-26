@@ -1,0 +1,45 @@
+body { 
+  font-family:{font:Outside Text}; 
+  color:{color:Outside Text}; 
+  background-color:{color:Background};
+  background-image:url("http://www.tiket.com/images/tiket2/bg_body.jpg"); 
+  background-repeat:repeat; 
+  background-attachment:fixed;{/block:IfFixedBackground}{/block:IfBackgroundImage} 
+}
+
+.blog-title, #sidebar h1, #sidebar h2, #sidebar h3, #footer h1, #footer h2, #footer h3  { 
+  font-family:{font:Outside Heading}; 
+}
+
+.copy { 
+  font-family:{font:Inside Text}; 
+}
+
+.copy h1, .copy h2, .copy h3, .copy h4, .copy h5, .copy h6, .auto-headings .copy p:first-child strong:first-child, #notes h2, #disqus h2, .speaker {
+  font-family:{font:Inside Heading};
+}
+		{block:IfInvert}
+    
+.pinned .menu a { 
+  color:#fff; color:rgba(255,255,255,0.8); 
+}
+		
+.pinned .blog-title a, .pinned .menu a:hover, .pinned .pages a, #sidebar .pages a, .banner .blog-title a, #sidebar .blog-title a, #twitter h3, #sidebar h2, #footer h2, #footer-end a, .more-likes, .like_link a, #pagination .nextprev a, .page-sep { 
+  color: #fff; 
+} 
+		{/block:IfInvert}
+		.colored-panel, .type-answer .user-question, .pages a:hover, .invert .fixed .pages a:hover, .invert .pinned .pages a:hover, .invert #sidebar .pages a:hover, .more-likes:hover, .invert-topbar .fixed .pages a:hover, .like_link a:hover, .type-photoset .navi a:hover, #pagination .nextprev a:hover { background-color:{color:Main Theme}; background-image:url("http://www.tiket.com/images/tiket2/bg_satin_footer.jpg"); }
+		.corners .tl { border-left-color:{color:Main Theme}; }
+		.corners .tr { border-right-color:{color:Main Theme}; }
+		.corners .bl, .corners .br { border-bottom-color:{color:Main Theme}; }
+		a, #footer-end a:hover { color:{color:Outside Link}; }
+		a:hover { color:{color:Outside Link Hover}; }
+		.copy a, .copy li:before, .type-chat .speaker, #notes-toggle:hover, ol.notes a, #disqus a { color:{color:Inside Link}; }
+		.copy a:hover, ol.notes a:hover { border-color:{color:Inside Link}; }
+		#notes-toggle:hover .icon, .photo-btns a:hover { background-color:{color:Inside Link}; }
+		.colored-panel, .colored-panel a, .colored-panel a:hover, .colored-panel .user-question, .pages a:hover, .invert-topbar .fixed .pages a:hover, .invert #sidebar .pages a:hover, .more-likes:hover, .like_link a:hover, #pagination .nextprev a:hover { color:{color:Colored Area Text}; }
+		.type-quote .quote-text,.type-audio .audio-meta,.type-answer .user-question,.pages a:hover, .more-likes:hover, .like_link a:hover, #pagination .nextprev a:hover { text-shadow:1px 1px {color:Colored Area Text Shadow}; }
+		ol.notes li.tumblelog_{PlaintextName} { background-color:#fbfbfb; }
+		ol.notes li.tumblelog_{PlaintextName} .action { font-weight:bold; }
+		#page, .inner { margin:{block:IfCenteredLayout}0 auto{/block:IfCenteredLayout}{block:IfNotCenteredLayout}0 0 0 40px{/block:ifNotCenteredLayout}; } 
+		{CustomCSS}
