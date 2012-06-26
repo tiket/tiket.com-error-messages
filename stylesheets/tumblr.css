@@ -1,45 +1,41 @@
-body { 
-  font-family:{font:Outside Text}; 
-  color:{color:Outside Text}; 
-  background-color:{color:Background};
-  background-image:url("http://www.tiket.com/images/tiket2/bg_body.jpg"); 
-  background-repeat:repeat; 
-  background-attachment:fixed;{/block:IfFixedBackground}{/block:IfBackgroundImage} 
+#header {
+ background: url(http://www.tiket.com/images/tiket2/bg_header2.jpg);
+ padding: 9px 0;
+}
+.pinned {
+ top: 0;
+}
+#header .blog-title {
+ padding: 6px 35px 0 0;
+}
+#header .blog-title a {
+ background: url(http://www.tiket.com/images/tiket2/tiket.png);
+ width: 171px;
+ height: 37px;
 }
 
-.blog-title, #sidebar h1, #sidebar h2, #sidebar h3, #footer h1, #footer h2, #footer h3  { 
-  font-family:{font:Outside Heading}; 
-}
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
 
-.copy { 
-  font-family:{font:Inside Text}; 
-}
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
 
-.copy h1, .copy h2, .copy h3, .copy h4, .copy h5, .copy h6, .auto-headings .copy p:first-child strong:first-child, #notes h2, #disqus h2, .speaker {
-  font-family:{font:Inside Heading};
-}
-		{block:IfInvert}
-    
-.pinned .menu a { 
-  color:#fff; color:rgba(255,255,255,0.8); 
-}
-		
-.pinned .blog-title a, .pinned .menu a:hover, .pinned .pages a, #sidebar .pages a, .banner .blog-title a, #sidebar .blog-title a, #twitter h3, #sidebar h2, #footer h2, #footer-end a, .more-likes, .like_link a, #pagination .nextprev a, .page-sep { 
-  color: #fff; 
-} 
-		{/block:IfInvert}
-		.colored-panel, .type-answer .user-question, .pages a:hover, .invert .fixed .pages a:hover, .invert .pinned .pages a:hover, .invert #sidebar .pages a:hover, .more-likes:hover, .invert-topbar .fixed .pages a:hover, .like_link a:hover, .type-photoset .navi a:hover, #pagination .nextprev a:hover { background-color:{color:Main Theme}; background-image:url("http://www.tiket.com/images/tiket2/bg_satin_footer.jpg"); }
-		.corners .tl { border-left-color:{color:Main Theme}; }
-		.corners .tr { border-right-color:{color:Main Theme}; }
-		.corners .bl, .corners .br { border-bottom-color:{color:Main Theme}; }
-		a, #footer-end a:hover { color:{color:Outside Link}; }
-		a:hover { color:{color:Outside Link Hover}; }
-		.copy a, .copy li:before, .type-chat .speaker, #notes-toggle:hover, ol.notes a, #disqus a { color:{color:Inside Link}; }
-		.copy a:hover, ol.notes a:hover { border-color:{color:Inside Link}; }
-		#notes-toggle:hover .icon, .photo-btns a:hover { background-color:{color:Inside Link}; }
-		.colored-panel, .colored-panel a, .colored-panel a:hover, .colored-panel .user-question, .pages a:hover, .invert-topbar .fixed .pages a:hover, .invert #sidebar .pages a:hover, .more-likes:hover, .like_link a:hover, #pagination .nextprev a:hover { color:{color:Colored Area Text}; }
-		.type-quote .quote-text,.type-audio .audio-meta,.type-answer .user-question,.pages a:hover, .more-likes:hover, .like_link a:hover, #pagination .nextprev a:hover { text-shadow:1px 1px {color:Colored Area Text Shadow}; }
-		ol.notes li.tumblelog_{PlaintextName} { background-color:#fbfbfb; }
-		ol.notes li.tumblelog_{PlaintextName} .action { font-weight:bold; }
-		#page, .inner { margin:{block:IfCenteredLayout}0 auto{/block:IfCenteredLayout}{block:IfNotCenteredLayout}0 0 0 40px{/block:ifNotCenteredLayout}; } 
-		{CustomCSS}
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+#header {
