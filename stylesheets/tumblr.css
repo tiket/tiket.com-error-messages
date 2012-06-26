@@ -29,6 +29,14 @@
 .topMenu .left .cs span { color: #d9750f; }
 .topMenu .left .cs em { font-size: 12px; font-weight: normal; }
 
+.wrapFoot { background: #1a304f; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2b4d7f), color-stop(100%, #1a304f)); background-image: -webkit-linear-gradient(#2b4d7f, #1a304f); background-image: -moz-linear-gradient(#2b4d7f, #1a304f); background-image: -o-linear-gradient(#2b4d7f, #1a304f); background-image: -ms-linear-gradient(#2b4d7f, #1a304f); background-image: linear-gradient(#2b4d7f, #1a304f); -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; }
+.wrapFoot .navHead { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; }
+.wrapFoot .navHead li { float: left; margin-top: 1px; }
+.wrapFoot .navHead li a { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; vertical-align: middle; *vertical-align: auto; -webkit-box-shadow: -1px 0 0 #1b3252, -2px 0 0 #204680; -moz-box-shadow: -1px 0 0 #1b3252, -2px 0 0 #204680; box-shadow: -1px 0 0 #1b3252, -2px 0 0 #204680; color: white; padding: 10px 15px; font-weight: bold; font-size: 13px; }
+.wrapFoot .navHead li a { *display: inline; }
+.wrapFoot .navHead li a:hover { background: #1b3252; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b6e9c), color-stop(100%, #1b3252)); background-image: -webkit-linear-gradient(#4b6e9c, #1b3252); background-image: -moz-linear-gradient(#4b6e9c, #1b3252); background-image: -o-linear-gradient(#4b6e9c, #1b3252); background-image: -ms-linear-gradient(#4b6e9c, #1b3252); background-image: linear-gradient(#4b6e9c, #1b3252); border-bottom: 3px solid #f3c049; padding-bottom: 7px; }
+.wrapFoot .navHead li:last-child { -webkit-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; -moz-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; }
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
