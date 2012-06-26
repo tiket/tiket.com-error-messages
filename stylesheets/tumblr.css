@@ -47,13 +47,13 @@
 .rich { clear: both; background: white url(http://www.tiket.com/images/tiket2/bg_rich.gif) repeat-x top; border-bottom: 1px solid #a8b4c3; }
 .wrapRich { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; padding-top: 15px; }
 .wrapRich .list { float: left; width: 14.11%; margin-right: 15px; }
-.wrapRich .list h3 { color: #234481; font-size: 14px; }
+.wrapRich .list h3 { color: #234481; font-size: 14px; margin-bottom: 15px; }
 .wrapRich .list ul { margin: 0; padding: 0; list-style: none; }
 .wrapRich .list ul li { font-size: 12px; margin-bottom: 10px; }
 .wrapRich .list ul li a { color: #333333; }
 .wrapRich .list ul li a:hover { color: #d9750f; }
 .wrapRich .right { float: right; width: 36.81%; }
-.wrapRich .right .cs { background: url(http://www.tiket.com/images/tiket2/icon_cs.jpg) no-repeat bottom right; margin-top: 73px; margin-left: 35px; padding-bottom: 50px; }
+.wrapRich .right .cs { background: url(http://www.tiket.com/images/tiket2/icon_cs.jpg) no-repeat bottom right; margin-top: 88px; margin-left: 35px; padding-bottom: 50px; }
 .wrapRich .right .cs .bubble { background: white; padding: 10px; width: 175px; position: relative; border: 1px solid #8292a9; -webkit-box-shadow: 0 0 0 4px #d7e5f0 inset; -moz-box-shadow: 0 0 0 4px #d7e5f0 inset; box-shadow: 0 0 0 4px #d7e5f0 inset; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 .wrapRich .right .cs .bubble:after { content: url(http://www.tiket.com/images/tiket2/bg_bubble_cs.png); position: absolute; right: -13px; bottom: 25px; }
 .wrapRich .right .cs .bubble h2 { margin: 0; font-size: 14px; }
