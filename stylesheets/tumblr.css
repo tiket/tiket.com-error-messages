@@ -44,6 +44,7 @@
 .wrapFoot .navHead li a:hover { background: #1b3252; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b6e9c), color-stop(100%, #1b3252)); background-image: -webkit-linear-gradient(#4b6e9c, #1b3252); background-image: -moz-linear-gradient(#4b6e9c, #1b3252); background-image: -o-linear-gradient(#4b6e9c, #1b3252); background-image: -ms-linear-gradient(#4b6e9c, #1b3252); background-image: linear-gradient(#4b6e9c, #1b3252); border-bottom: 3px solid #f3c049; padding-bottom: 7px; }
 .wrapFoot .navHead li:last-child { -webkit-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; -moz-box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; box-shadow: 1px 0 0 #204680, 2px 0 0 #1b3252; }
 
+.rich { background: white url(http://www.tiket.com/images/tiket2/bg_rich.gif) repeat-x top; border-bottom: 1px solid #a8b4c3; }
 .wrapRich { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; padding-top: 15px; }
 .wrapRich .list { float: left; width: 14.11%; margin-right: 15px; }
 .wrapRich .list h3 { color: #234481; font-size: 14px; }
