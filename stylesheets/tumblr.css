@@ -1,6 +1,6 @@
 #header {
  background: url(http://www.tiket.com/images/tiket2/bg_header2.jpg);
- padding: 7px 0;
+ padding: 0 0 14px;
 }
 .pinned {
  top: 0;
@@ -11,12 +11,12 @@
  padding-bottom: 0;
 }
 #header .blog-title {
- padding: 6px 35px 0 0;
+ padding: 0;
 }
 #header .blog-title a {
  background: url(http://www.tiket.com/images/tiket2/tiket_blog.png);
- width: 171px;
- height: 37px;
+ width: 239px;
+ height: 50px;
 }
 #page {
   padding-top: 25px;
