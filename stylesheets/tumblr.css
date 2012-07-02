@@ -63,7 +63,7 @@
 .wrapRich .right .cs .bubble { background: white; padding: 10px; width: 175px; position: relative; border: 1px solid #8292a9; -webkit-box-shadow: 0 0 0 4px #d7e5f0 inset; -moz-box-shadow: 0 0 0 4px #d7e5f0 inset; box-shadow: 0 0 0 4px #d7e5f0 inset; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
 .wrapRich .right .cs .bubble:after { content: url(http://www.tiket.com/images/tiket2/bg_bubble_cs.png); position: absolute; right: -13px; bottom: 25px; }
 .wrapRich .right .cs .bubble h2 { margin: 0; font-size: 14px; }
-.wrapRich .right .cs .bubble h1 { margin: 5px 0; font-family: VAGbold, sans-serif; font-size: 24px; font-weight: normal; color: #d9750f; }
+.wrapRich .right .cs .bubble h1 { margin: 5px 0; font-family: VAGbold, sans-serif; font-size: 21px; font-weight: normal; color: #d9750f; }
 .wrapRich .right .cs .bubble p { margin: 0; color: #234481; font-size: 12px; }
 
 .payment { margin: 0 auto; max-width: 940px; padding: 0 20px; position: relative; padding-top: 20px; }
