@@ -12,7 +12,7 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Tiket.com &#9733; Server Busy</title>
+  <title>Tiket.com &#9733; Page is Forbidden</title>
   <meta name="description" content="">
   
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -42,9 +42,9 @@
     <section class="busy">
       <div class="wrapBusy">
         <div class="detail">
-          <h1>We Are Currently Too Busy Handling Customer Requests</h1>
+          <h1>The page you are trying to access is forbidden</h1>
           <p>
-            Please get back to us in a few minutes. In the mean time you can check our updates on <a href="http://facebook.com/tiket" title="Tiket.com Facebook Page">Facebook</a> or <a href="http://twitter.com/tiket" title="Tiket.com Twitter">Twitter.</a>
+            Please access somewhere else. You can also check our updates on <a href="http://facebook.com/tiket" title="Tiket.com Facebook Page">Facebook</a> or <a href="http://twitter.com/tiket" title="Tiket.com Twitter">Twitter. (403)</a>
           </p>
           <p>
             <strong class="sincerely">Sincerely.</strong>
@@ -69,6 +69,16 @@
   _gaq.push(['_setAccount', 'UA-22317351-2']);
   _gaq.push(['_setDomainName', 'tiket.com']);
   _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setCustomVar',
+      5,                   // This custom var is set to slot #1.  Required parameter.
+      'Error Page',     // The name acts as a kind of category for the user activity.  Required parameter.
+      '403 forbidden',               // This value of the custom variable.  Required parameter.
+      3                    // Sets the scope to session-level.  Optional parameter.
+   ]);
+  _gaq.push(['_trackEvent',
+      'Error Page', // category of activity
+      '403 forbidden', // Action
+   ]);
   _gaq.push(['_trackPageview']);
 
   (function() {
