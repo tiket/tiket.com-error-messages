@@ -4,7 +4,7 @@ License: none (public domain) */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, footer h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, images, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -386,7 +386,7 @@ header {
         -moz-column-gap: 20px;
         -webkit-column-gap: 20px;
         column-gap: 20px; }
-        .menubox .searchbox .content .event5 img {
+        .menubox .searchbox .content .event5 images {
           float: left;
           margin-right: 8px; }
         .menubox .searchbox .content .event5 li {
@@ -457,7 +457,7 @@ header {
   .search-hotel .slide-hotel {
     float: right;
     width: 390px; }
-    .search-hotel .slide-hotel img {
+    .search-hotel .slide-hotel images {
       border-radius: 3px;
       border: 1px solid #fff; }
 
@@ -559,7 +559,7 @@ header {
   .search-flight .slide-flight {
     float: right;
     width: 390px; }
-    .search-flight .slide-flight img {
+    .search-flight .slide-flight images {
       border-radius: 3px;
       border: 1px solid #fff; }
 
@@ -612,7 +612,7 @@ header {
       float: left;
       display: inline-block;
       margin: 0 10px 10px 0; }
-      .sidebar .colpop li img {
+      .sidebar .colpop li images {
         z-index: 0;
         position: relative; }
       .sidebar .colpop li p {
@@ -741,7 +741,7 @@ header {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      .mainbar .promo li img {
+      .mainbar .promo li images {
         float: left; }
       .mainbar .promo li .text {
         float: right;
@@ -850,7 +850,7 @@ header {
   .mainbar .topsell_list li {
     padding: 20px 0;
     border-bottom: 1px solid #dddddd; }
-    .mainbar .topsell_list li img {
+    .mainbar .topsell_list li images {
       float: left;
       margin-right: 12px; }
     .mainbar .topsell_list li .price {
@@ -920,7 +920,7 @@ header {
     .hotel-sidebar .colpop li {
       display: inline-block;
       margin: 0 0 10px 0; }
-      .hotel-sidebar .colpop li img {
+      .hotel-sidebar .colpop li images {
         z-index: 0;
         position: relative; }
       .hotel-sidebar .colpop li p {
@@ -955,7 +955,7 @@ header {
     .hotel-sidebar .view-hotel li {
       border-bottom: 1px solid #ddd;
       padding: 12px; }
-      .hotel-sidebar .view-hotel li img {
+      .hotel-sidebar .view-hotel li images {
         float: left;
         border: 1px solid #d0d0d0;
         margin: 0 8px 0 0; }
@@ -996,7 +996,7 @@ header {
       border: 1px solid #dfe0e1;
       margin-bottom: 5px;
       padding: 10px; }
-      .hotel-mainbar .hotel-area li img {
+      .hotel-mainbar .hotel-area li images {
         float: left;
         margin: 0 10px 0 0;
         border: 1px solid #cbcccc; }
@@ -1178,7 +1178,7 @@ header {
     padding: 15px;
     border: 1px solid #dddddd;
     margin-bottom: 10px; }
-    .ditemukan .hotel_ditemukan li img {
+    .ditemukan .hotel_ditemukan li images {
       float: left;
       margin-right: 12px;
       border: 1px solid #d3d3d3; }
@@ -1282,7 +1282,7 @@ header {
     padding: 14px;
     margin-top: 8px;
     font-size: 14px; }
-    .result-word li img {
+    .result-word li images {
       float: left;
       border: 1px solid #d6d6d6;
       margin: 0 10px 0 0; }
@@ -1346,7 +1346,7 @@ header {
     .detail-sidebar .view-hotel li {
       border-bottom: 1px solid #ddd;
       padding: 12px; }
-      .detail-sidebar .view-hotel li img {
+      .detail-sidebar .view-hotel li images {
         float: left;
         border: 1px solid #d0d0d0;
         margin: 0 8px 0 0; }
@@ -1404,7 +1404,7 @@ header {
     float: left;
     width: 415px;
     height: 295px; }
-    .detail-mainbar .detail-foto img:hover {
+    .detail-mainbar .detail-foto images:hover {
       opacity: 0.8; }
   .detail-mainbar .detail-list {
     float: right;
@@ -1412,7 +1412,7 @@ header {
     text-align: right;
     font-size: 14px;
     font-weight: 700; }
-    .detail-mainbar .detail-list img:hover {
+    .detail-mainbar .detail-list images:hover {
       opacity: 0.8; }
     .detail-mainbar .detail-list ul li {
       display: inline-block;
@@ -1457,7 +1457,7 @@ header {
       width: 210px;
       height: 70px;
       margin: 10px 0 0 20px; }
-      .detail-mainbar .tempat-menarik .tempat img {
+      .detail-mainbar .tempat-menarik .tempat images {
         float: left;
         margin: 0 7px 0 0; }
       .detail-mainbar .tempat-menarik .tempat h4, .detail-mainbar .tempat-menarik .tempat footer h3, footer .detail-mainbar .tempat-menarik .tempat h3 {
@@ -1514,7 +1514,7 @@ header {
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 10px; }
-      .detail-mainbar .pilih-kamar .info img {
+      .detail-mainbar .pilih-kamar .info images {
         float: left;
         margin: 0 10px 0 0; }
       .detail-mainbar .pilih-kamar .info .i {
@@ -1756,7 +1756,7 @@ header {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      .flight-mainbar .promo li img {
+      .flight-mainbar .promo li images {
         float: left; }
       .flight-mainbar .promo li .text {
         float: right;
@@ -2559,7 +2559,7 @@ header {
 
 .waiting-room {
   min-height: 650px;
-  background: url(../img/waiting.png) no-repeat center; }
+  background: url(../images/waiting.png) no-repeat center; }
 
 .welcome {
   padding-top: 40px;
@@ -2597,7 +2597,7 @@ header {
 .flag {
   width: 25px;
   height: 15px;
-  background: url(../img/flags.png) no-repeat;
+  background: url(../images/flags.png) no-repeat;
   display: inline-block; }
 
 .flag.flag-ad {
@@ -3489,7 +3489,7 @@ footer {
           width: 850px; }
           .wrapmodal .popmodal .modalbox .mbox .modal_kamar .in {
             padding: 10px 40px 40px; }
-          .wrapmodal .popmodal .modalbox .mbox .modal_kamar img {
+          .wrapmodal .popmodal .modalbox .mbox .modal_kamar images {
             float: left;
             margin: 0 20px 0 0; }
           .wrapmodal .popmodal .modalbox .mbox .modal_kamar h4, .wrapmodal .popmodal .modalbox .mbox .modal_kamar footer h3, footer .wrapmodal .popmodal .modalbox .mbox .modal_kamar h3 {
@@ -3623,138 +3623,138 @@ button:hover {
   display: inline-block;
   width: 60px;
   height: 12px;
-  background: url(../img/sprites2.png) -450px 0px; }
+  background: url(../images/sprites2.png) -450px 0px; }
   .star span {
     display: none; }
 
 .star4 {
-  background: url(../img/sprites2.png) -450px -12px; }
+  background: url(../images/sprites2.png) -450px -12px; }
 
 .star3 {
-  background: url(../img/sprites2.png) -450px -24px; }
+  background: url(../images/sprites2.png) -450px -24px; }
 
 .star2 {
-  background: url(../img/sprites2.png) -450px -36px; }
+  background: url(../images/sprites2.png) -450px -36px; }
 
 .star1 {
-  background: url(../img/sprites2.png) -450px -48px; }
+  background: url(../images/sprites2.png) -450px -48px; }
 
 .star0 {
-  background: url(../img/sprites2.png) -450px -60px; }
+  background: url(../images/sprites2.png) -450px -60px; }
 
 .point {
   display: inline-block;
   width: 102px;
   height: 18px;
-  background: url(../img/sprites2.png) -118px 0px; }
+  background: url(../images/sprites2.png) -118px 0px; }
   .point span {
     display: none; }
 
 .point9 {
-  background: url(../img/sprites2.png) -118px -18px; }
+  background: url(../images/sprites2.png) -118px -18px; }
 
 .point8 {
-  background: url(../img/sprites2.png) -118px -36px; }
+  background: url(../images/sprites2.png) -118px -36px; }
 
 .point7 {
-  background: url(../img/sprites2.png) -118px -54px; }
+  background: url(../images/sprites2.png) -118px -54px; }
 
 .point6 {
-  background: url(../img/sprites2.png) -118px -72px; }
+  background: url(../images/sprites2.png) -118px -72px; }
 
 .point5 {
-  background: url(../img/sprites2.png) -118px -90px; }
+  background: url(../images/sprites2.png) -118px -90px; }
 
 .point4 {
-  background: url(../img/sprites2.png) -118px -108px; }
+  background: url(../images/sprites2.png) -118px -108px; }
 
 .point3 {
-  background: url(../img/sprites2.png) -118px -126px; }
+  background: url(../images/sprites2.png) -118px -126px; }
 
 .point2 {
-  background: url(../img/sprites2.png) -118px -144px; }
+  background: url(../images/sprites2.png) -118px -144px; }
 
 .point1 {
-  background: url(../img/sprites2.png) -118px -162px; }
+  background: url(../images/sprites2.png) -118px -162px; }
 
 .point0 {
-  background: url(../img/sprites2.png) -118px -180px; }
+  background: url(../images/sprites2.png) -118px -180px; }
 
 .dot {
   display: inline-block;
   width: 69px;
   height: 14px;
-  background: url(../img/sprites2.png) -220px 0px; }
+  background: url(../images/sprites2.png) -220px 0px; }
   .dot span {
     display: none; }
 
 .dot9 {
-  background: url(../img/sprites2.png) -220px -14px; }
+  background: url(../images/sprites2.png) -220px -14px; }
 
 .dot8 {
-  background: url(../img/sprites2.png) -220px -28px; }
+  background: url(../images/sprites2.png) -220px -28px; }
 
 .dot7 {
-  background: url(../img/sprites2.png) -220px -42px; }
+  background: url(../images/sprites2.png) -220px -42px; }
 
 .dot6 {
-  background: url(../img/sprites2.png) -220px -56px; }
+  background: url(../images/sprites2.png) -220px -56px; }
 
 .dot5 {
-  background: url(../img/sprites2.png) -220px -70px; }
+  background: url(../images/sprites2.png) -220px -70px; }
 
 .dot4 {
-  background: url(../img/sprites2.png) -220px -84px; }
+  background: url(../images/sprites2.png) -220px -84px; }
 
 .dot3 {
-  background: url(../img/sprites2.png) -220px -98px; }
+  background: url(../images/sprites2.png) -220px -98px; }
 
 .dot2 {
-  background: url(../img/sprites2.png) -220px -112px; }
+  background: url(../images/sprites2.png) -220px -112px; }
 
 .dot1 {
-  background: url(../img/sprites2.png) -220px -126px; }
+  background: url(../images/sprites2.png) -220px -126px; }
 
 .dot0 {
-  background: url(../img/sprites2.png) -220px -140px; }
+  background: url(../images/sprites2.png) -220px -140px; }
 
 .bar {
   display: inline-block;
   width: 69px;
   height: 14px;
-  background: url(../img/sprites2.png) -289px 0px; }
+  background: url(../images/sprites2.png) -289px 0px; }
   .bar span {
     display: none; }
 
 .bar9 {
-  background: url(../img/sprites2.png) -289px -14px; }
+  background: url(../images/sprites2.png) -289px -14px; }
 
 .bar8 {
-  background: url(../img/sprites2.png) -289px -28px; }
+  background: url(../images/sprites2.png) -289px -28px; }
 
 .bar7 {
-  background: url(../img/sprites2.png) -289px -42px; }
+  background: url(../images/sprites2.png) -289px -42px; }
 
 .bar6 {
-  background: url(../img/sprites2.png) -289px -56px; }
+  background: url(../images/sprites2.png) -289px -56px; }
 
 .bar5 {
-  background: url(../img/sprites2.png) -289px -70px; }
+  background: url(../images/sprites2.png) -289px -70px; }
 
 .bar4 {
-  background: url(../img/sprites2.png) -289px -84px; }
+  background: url(../images/sprites2.png) -289px -84px; }
 
 .bar3 {
-  background: url(../img/sprites2.png) -289px -98px; }
+  background: url(../images/sprites2.png) -289px -98px; }
 
 .bar2 {
-  background: url(../img/sprites2.png) -289px -112px; }
+  background: url(../images/sprites2.png) -289px -112px; }
 
 .bar1 {
-  background: url(../img/sprites2.png) -289px -126px; }
+  background: url(../images/sprites2.png) -289px -126px; }
 
 .bar0 {
-  background: url(../img/sprites2.png) -289px -140px; }
+  background: url(../images/sprites2.png) -289px -140px; }
 
 .raquo {
   background: url(../images/sprites.png) -992px -210px;
@@ -3865,37 +3865,37 @@ strong {
   vertical-align: middle; }
 
 .f1 {
-  background: url(../img/flight.png) 0px 0px;
+  background: url(../images/flight.png) 0px 0px;
   height: 11px; }
 
 .f2 {
-  background: url(../img/flight.png) 0px -11px;
+  background: url(../images/flight.png) 0px -11px;
   height: 18px; }
 
 .f3 {
-  background: url(../img/flight.png) 0px -29px;
+  background: url(../images/flight.png) 0px -29px;
   height: 37px; }
 
 .f4 {
-  background: url(../img/flight.png) 0px -66px;
+  background: url(../images/flight.png) 0px -66px;
   height: 24px; }
 
 .f5 {
-  background: url(../img/flight.png) 0px -90px;
+  background: url(../images/flight.png) 0px -90px;
   height: 20px; }
 
 .f6 {
-  background: url(../img/flight.png) 0px -110px;
+  background: url(../images/flight.png) 0px -110px;
   height: 30px; }
 
 .f7 {
-  background: url(../img/flight.png) 0px -140px;
+  background: url(../images/flight.png) 0px -140px;
   height: 16px; }
 
 .f8 {
-  background: url(../img/flight.png) 0px -156px;
+  background: url(../images/flight.png) 0px -156px;
   height: 19px; }
 
 .f9 {
-  background: url(../img/flight.png) 0px -175px;
+  background: url(../images/flight.png) 0px -175px;
   height: 31px; }
