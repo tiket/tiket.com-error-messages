@@ -23,7 +23,7 @@ $(function(){
 		{
 			"margin-top":0
 		},
-		"fast",
+		"slow",
 		"swing",
 		function(){
 			$(".balloon-small").fadeIn(
