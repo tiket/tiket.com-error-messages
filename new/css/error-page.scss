@@ -1,8 +1,58 @@
 $error-404-page-sprite: url(../images/404-page-sprite.png) no-repeat;
+$waiting-room-page-sprite: url(../images/waiting-room-page-sprite.png) no-repeat;
+
+@mixin set-sprite-crop($width,$height,$left,$top,$crop-left,$crop-top){
+	width:$width;
+	height:$height;
+	margin-left:$left;
+	margin-top:$top;
+	background-position-x:-$crop-left;
+	background-position-y:-$crop-top;
+	position:absolute;
+}
+
 .error-body{
 	position:fixed;
 	height:100%;
 	width:100%
+}
+.welcome{
+	padding-top: 40px;
+	width: 350px;
+	h3{
+		font-weight: 700;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	p{
+		font-size: 14px;
+		padding-bottom: 10px;
+		line-height: 140%;
+	}
+	h2{
+		color: #ed1c24;
+		font-weight: 700;
+		font-size: 142px;
+		span{
+			font-weight: 400;
+			font-size: 25px;
+		}
+	}
+}
+.reminder{
+	padding: 10px;
+	background: #eee;
+	display: inline-block;
+	float: right;
+	margin: 160px 0 0 0;
+	i{
+		display: inline-block;
+		background: $sprites -628px -143px;
+		width: 27px;
+		height: 28px;
+		float: left;
+		margin-right: 10px;
+	}
 }
 .error-page{
 	min-height: 550px;
@@ -42,37 +92,27 @@ $error-404-page-sprite: url(../images/404-page-sprite.png) no-repeat;
 			margin-right: 3px;
 		}
 	}
-	.background{
+	.page-404.background{
 		width:649px;
 		height:544px;
 		position:absolute;
 		margin-left:329px;
 		z-index:0;
-		@mixin set-background($width,$height,$left,$top,$crop-left,$crop-top){
-			width:$width;
-			height:$height;
-			margin-left:$left;
-			margin-top:$top;
+		*{
 			background:$error-404-page-sprite;
-			background-position-x:-$crop-left;
-			background-position-y:-$crop-top;
-			position:absolute;
+			display:none;
 		}
 		.balloon-small{
-			@include set-background(47px,66px,204px,103px,0,101px);
-			display:none;
+			@include set-sprite-crop(47px,66px,204px,103px,0,101px);
 		}
 		.cloud-1{
-			@include set-background(101px,24px,135px,223px,0,0);
-			display:none;
+			@include set-sprite-crop(101px,24px,135px,223px,0,0);
 		}
 		.cloud-2{
-			@include set-background(85px,20px,0,524px,0,28px);
-			display:none;
+			@include set-sprite-crop(85px,20px,0,524px,0,28px);
 		}
 		.cloud-3{
-			@include set-background(180px,44px,468px,460px,0,53px);
-			display:none;
+			@include set-sprite-crop(180px,44px,468px,460px,0,53px);
 		}
 		.balloon-big{
 			width:330px;
@@ -80,70 +120,68 @@ $error-404-page-sprite: url(../images/404-page-sprite.png) no-repeat;
 			position:absolute;
 			margin-left:244px;
 			margin-top:1024px;
+			background:none;
+			display:block;
+			*{
+				background:$error-404-page-sprite;
+				display:block;
+			}
 			.air-balloon{
-				@include set-background(253px,282px,76px,0,263px,0);
+				@include set-sprite-crop(253px,282px,76px,0,263px,0);
 			}
 			.passenger{
-				@include set-background(260px,242px,0,268px,0,167px);
+				@include set-sprite-crop(260px,242px,0,268px,0,167px);
 				.question-mark{
-					@include set-background(13px,14px,226px,52px,47px,153px);
+					@include set-sprite-crop(13px,14px,226px,52px,47px,153px);
 					display:none;
 				}
 				.load-1{
-					@include set-background(29px,39px,104px,162px,47px,101px);
+					@include set-sprite-crop(29px,39px,104px,162px,47px,101px);
 				}
 				.load-2{
-					@include set-background(29px,39px,178px,162px,76px,101px);
+					@include set-sprite-crop(29px,39px,178px,162px,76px,101px);
 				}
 				.load-3{
-					@include set-background(42px,39px,236px,158px,105px,101px);
+					@include set-sprite-crop(42px,39px,236px,158px,105px,101px);
 				}
 			}
 			.load-4{
-				@include set-background(33px,39px,244px,409px,147px,101px);
+				@include set-sprite-crop(33px,39px,244px,409px,147px,101px);
 			}
 		}
 	}
 }
-.waiting-room{
-	min-height: 650px;
-	background: url(../images/waiting.png) no-repeat center;
-}
-.welcome{
-	padding-top: 40px;
-	width: 350px;
-	h3{
-		font-weight: 700;
-		font-size: 20px;
-		padding-bottom: 10px;
+.waiting-room.background{
+	width:649px;
+	height:544px;
+	position:absolute;
+	z-index:0;
+	.mountain{
+		background:$waiting-room-page-sprite;
+		@include set-sprite-crop(1299px,82px,0,156px,0,454px);
+		display:none;
 	}
-	p{
-		font-size: 14px;
-		padding-bottom: 10px;
-		line-height: 140%;
-	}
-	h2{
-		color: #ed1c24;
-		font-weight: 700;
-		font-size: 142px;
-		span{
-			font-weight: 400;
-			font-size: 25px;
+	.wrap{
+		margin-left:392px;
+		*{
+			background:$waiting-room-page-sprite;
+			display:none;
 		}
-	}
-}
-.reminder{
-	padding: 10px;
-	background: #eee;
-	display: inline-block;
-	float: right;
-	margin: 160px 0 0 0;
-	i{
-		display: inline-block;
-		background: $sprites -628px -143px;
-		width: 27px;
-		height: 28px;
-		float: left;
-		margin-right: 10px;
+		.igloo{
+			@include set-sprite-crop(410px,211px,359px,56px,739px,0);
+		}
+		.guy{
+			@include set-sprite-crop(143px,373px,543px,0,480px,0);
+		}
+		.bucket{
+			@include set-sprite-crop(69px,59px,124px,351px,739px,239px);
+		}
+		.girl{
+			@include set-sprite-crop(461px,437px,0,20px,0,0);
+			.rope{
+				@include set-sprite-crop(81px,432px,50px,0,637px,0);
+				display:block;
+			}
+		}
 	}
 }

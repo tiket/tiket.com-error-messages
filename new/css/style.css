@@ -2531,158 +2531,6 @@ header {
   height: 100%;
   width: 100%; }
 
-.error-page {
-  min-height: 550px; }
-  .error-page .msg {
-    width: 250px;
-    padding: 205px 0 0 0;
-    position: relative;
-    z-index: 99; }
-    .error-page .msg h3 {
-      font-weight: 700;
-      font-size: 27px;
-      line-height: 30px;
-      color: #ff720a;
-      padding: 0 0 20px 0; }
-    .error-page .msg p {
-      font-size: 13px;
-      line-height: 17px;
-      padding: 0 0 20px 0; }
-      .error-page .msg p a {
-        font-weight: 700;
-        font-size: 14px; }
-    .error-page .msg h2 {
-      display: inline-block;
-      font-weight: 700;
-      font-size: 16px; }
-    .error-page .msg .telp {
-      display: inline-block;
-      background: url(../images/sprites.png) -488px -119px;
-      width: 15px;
-      height: 18px;
-      vertical-align: middle;
-      margin-right: 3px; }
-  .error-page .background {
-    width: 649px;
-    height: 544px;
-    position: absolute;
-    margin-left: 329px;
-    z-index: 0; }
-    .error-page .background .balloon-small {
-      width: 47px;
-      height: 66px;
-      margin-left: 204px;
-      margin-top: 103px;
-      background: url(../images/404-page-sprite.png) no-repeat;
-      background-position-x: 0;
-      background-position-y: -101px;
-      position: absolute;
-      display: none; }
-    .error-page .background .cloud-1 {
-      width: 101px;
-      height: 24px;
-      margin-left: 135px;
-      margin-top: 223px;
-      background: url(../images/404-page-sprite.png) no-repeat;
-      background-position-x: 0;
-      background-position-y: 0;
-      position: absolute;
-      display: none; }
-    .error-page .background .cloud-2 {
-      width: 85px;
-      height: 20px;
-      margin-left: 0;
-      margin-top: 524px;
-      background: url(../images/404-page-sprite.png) no-repeat;
-      background-position-x: 0;
-      background-position-y: -28px;
-      position: absolute;
-      display: none; }
-    .error-page .background .cloud-3 {
-      width: 180px;
-      height: 44px;
-      margin-left: 468px;
-      margin-top: 460px;
-      background: url(../images/404-page-sprite.png) no-repeat;
-      background-position-x: 0;
-      background-position-y: -53px;
-      position: absolute;
-      display: none; }
-    .error-page .background .balloon-big {
-      width: 330px;
-      height: 511px;
-      position: absolute;
-      margin-left: 244px;
-      margin-top: 1024px; }
-      .error-page .background .balloon-big .air-balloon {
-        width: 253px;
-        height: 282px;
-        margin-left: 76px;
-        margin-top: 0;
-        background: url(../images/404-page-sprite.png) no-repeat;
-        background-position-x: -263px;
-        background-position-y: 0;
-        position: absolute; }
-      .error-page .background .balloon-big .passenger {
-        width: 260px;
-        height: 242px;
-        margin-left: 0;
-        margin-top: 268px;
-        background: url(../images/404-page-sprite.png) no-repeat;
-        background-position-x: 0;
-        background-position-y: -167px;
-        position: absolute; }
-        .error-page .background .balloon-big .passenger .question-mark {
-          width: 13px;
-          height: 14px;
-          margin-left: 226px;
-          margin-top: 52px;
-          background: url(../images/404-page-sprite.png) no-repeat;
-          background-position-x: -47px;
-          background-position-y: -153px;
-          position: absolute;
-          display: none; }
-        .error-page .background .balloon-big .passenger .load-1 {
-          width: 29px;
-          height: 39px;
-          margin-left: 104px;
-          margin-top: 162px;
-          background: url(../images/404-page-sprite.png) no-repeat;
-          background-position-x: -47px;
-          background-position-y: -101px;
-          position: absolute; }
-        .error-page .background .balloon-big .passenger .load-2 {
-          width: 29px;
-          height: 39px;
-          margin-left: 178px;
-          margin-top: 162px;
-          background: url(../images/404-page-sprite.png) no-repeat;
-          background-position-x: -76px;
-          background-position-y: -101px;
-          position: absolute; }
-        .error-page .background .balloon-big .passenger .load-3 {
-          width: 42px;
-          height: 39px;
-          margin-left: 236px;
-          margin-top: 158px;
-          background: url(../images/404-page-sprite.png) no-repeat;
-          background-position-x: -105px;
-          background-position-y: -101px;
-          position: absolute; }
-      .error-page .background .balloon-big .load-4 {
-        width: 33px;
-        height: 39px;
-        margin-left: 244px;
-        margin-top: 409px;
-        background: url(../images/404-page-sprite.png) no-repeat;
-        background-position-x: -147px;
-        background-position-y: -101px;
-        position: absolute; }
-
-.waiting-room {
-  min-height: 650px;
-  background: url(../images/waiting.png) no-repeat center; }
-
 .welcome {
   padding-top: 40px;
   width: 350px; }
@@ -2715,6 +2563,209 @@ header {
     height: 28px;
     float: left;
     margin-right: 10px; }
+
+.error-page {
+  min-height: 550px; }
+  .error-page .msg {
+    width: 250px;
+    padding: 205px 0 0 0;
+    position: relative;
+    z-index: 99; }
+    .error-page .msg h3 {
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 30px;
+      color: #ff720a;
+      padding: 0 0 20px 0; }
+    .error-page .msg p {
+      font-size: 13px;
+      line-height: 17px;
+      padding: 0 0 20px 0; }
+      .error-page .msg p a {
+        font-weight: 700;
+        font-size: 14px; }
+    .error-page .msg h2 {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 16px; }
+    .error-page .msg .telp {
+      display: inline-block;
+      background: url(../images/sprites.png) -488px -119px;
+      width: 15px;
+      height: 18px;
+      vertical-align: middle;
+      margin-right: 3px; }
+  .error-page .page-404.background {
+    width: 649px;
+    height: 544px;
+    position: absolute;
+    margin-left: 329px;
+    z-index: 0; }
+    .error-page .page-404.background * {
+      background: url(../images/404-page-sprite.png) no-repeat;
+      display: none; }
+    .error-page .page-404.background .balloon-small {
+      width: 47px;
+      height: 66px;
+      margin-left: 204px;
+      margin-top: 103px;
+      background-position-x: 0;
+      background-position-y: -101px;
+      position: absolute; }
+    .error-page .page-404.background .cloud-1 {
+      width: 101px;
+      height: 24px;
+      margin-left: 135px;
+      margin-top: 223px;
+      background-position-x: 0;
+      background-position-y: 0;
+      position: absolute; }
+    .error-page .page-404.background .cloud-2 {
+      width: 85px;
+      height: 20px;
+      margin-left: 0;
+      margin-top: 524px;
+      background-position-x: 0;
+      background-position-y: -28px;
+      position: absolute; }
+    .error-page .page-404.background .cloud-3 {
+      width: 180px;
+      height: 44px;
+      margin-left: 468px;
+      margin-top: 460px;
+      background-position-x: 0;
+      background-position-y: -53px;
+      position: absolute; }
+    .error-page .page-404.background .balloon-big {
+      width: 330px;
+      height: 511px;
+      position: absolute;
+      margin-left: 244px;
+      margin-top: 1024px;
+      background: none;
+      display: block; }
+      .error-page .page-404.background .balloon-big * {
+        background: url(../images/404-page-sprite.png) no-repeat;
+        display: block; }
+      .error-page .page-404.background .balloon-big .air-balloon {
+        width: 253px;
+        height: 282px;
+        margin-left: 76px;
+        margin-top: 0;
+        background-position-x: -263px;
+        background-position-y: 0;
+        position: absolute; }
+      .error-page .page-404.background .balloon-big .passenger {
+        width: 260px;
+        height: 242px;
+        margin-left: 0;
+        margin-top: 268px;
+        background-position-x: 0;
+        background-position-y: -167px;
+        position: absolute; }
+        .error-page .page-404.background .balloon-big .passenger .question-mark {
+          width: 13px;
+          height: 14px;
+          margin-left: 226px;
+          margin-top: 52px;
+          background-position-x: -47px;
+          background-position-y: -153px;
+          position: absolute;
+          display: none; }
+        .error-page .page-404.background .balloon-big .passenger .load-1 {
+          width: 29px;
+          height: 39px;
+          margin-left: 104px;
+          margin-top: 162px;
+          background-position-x: -47px;
+          background-position-y: -101px;
+          position: absolute; }
+        .error-page .page-404.background .balloon-big .passenger .load-2 {
+          width: 29px;
+          height: 39px;
+          margin-left: 178px;
+          margin-top: 162px;
+          background-position-x: -76px;
+          background-position-y: -101px;
+          position: absolute; }
+        .error-page .page-404.background .balloon-big .passenger .load-3 {
+          width: 42px;
+          height: 39px;
+          margin-left: 236px;
+          margin-top: 158px;
+          background-position-x: -105px;
+          background-position-y: -101px;
+          position: absolute; }
+      .error-page .page-404.background .balloon-big .load-4 {
+        width: 33px;
+        height: 39px;
+        margin-left: 244px;
+        margin-top: 409px;
+        background-position-x: -147px;
+        background-position-y: -101px;
+        position: absolute; }
+
+.waiting-room.background {
+  width: 649px;
+  height: 544px;
+  position: absolute;
+  z-index: 0; }
+  .waiting-room.background .mountain {
+    background: url(../images/waiting-room-page-sprite.png) no-repeat;
+    width: 1299px;
+    height: 82px;
+    margin-left: 0;
+    margin-top: 156px;
+    background-position-x: 0;
+    background-position-y: -454px;
+    position: absolute;
+    display: none; }
+  .waiting-room.background .wrap {
+    margin-left: 392px; }
+    .waiting-room.background .wrap * {
+      background: url(../images/waiting-room-page-sprite.png) no-repeat;
+      display: none; }
+    .waiting-room.background .wrap .igloo {
+      width: 410px;
+      height: 211px;
+      margin-left: 359px;
+      margin-top: 56px;
+      background-position-x: -739px;
+      background-position-y: 0;
+      position: absolute; }
+    .waiting-room.background .wrap .guy {
+      width: 143px;
+      height: 373px;
+      margin-left: 543px;
+      margin-top: 0;
+      background-position-x: -480px;
+      background-position-y: 0;
+      position: absolute; }
+    .waiting-room.background .wrap .bucket {
+      width: 69px;
+      height: 59px;
+      margin-left: 124px;
+      margin-top: 351px;
+      background-position-x: -739px;
+      background-position-y: -239px;
+      position: absolute; }
+    .waiting-room.background .wrap .girl {
+      width: 461px;
+      height: 437px;
+      margin-left: 0;
+      margin-top: 20px;
+      background-position-x: 0;
+      background-position-y: 0;
+      position: absolute; }
+      .waiting-room.background .wrap .girl .rope {
+        width: 81px;
+        height: 432px;
+        margin-left: 50px;
+        margin-top: 0;
+        background-position-x: -637px;
+        background-position-y: 0;
+        position: absolute;
+        display: block; }
 
 .flag {
   width: 25px;

@@ -23,13 +23,12 @@
 <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=Nunito:700,400,300" rel="stylesheet" type="text/css">
 <link href="//tiket.github.io/tiket.com-error-messages/new/css/style.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	.error-page{
-		background:none;
-	}
-</style>
+<script src="//tiket.github.io/tiket.com-error-messages/new/js/jquery.js"></script>
+<script src="//tiket.github.io/tiket.com-error-messages/new/js/jquery-rotate.js"></script>
+<script src="//tiket.github.io/tiket.com-error-messages/new/js/plax.js"></script>
+<script src="//tiket.github.io/tiket.com-error-messages/new/js/waiting-room.js"></script>
 </head>
-<body class="waiting-room">
+<body class="error-body">
 <header>
 <div class="top"></div>
 <div class="wrap">
@@ -37,12 +36,23 @@
 <div class="clear"></div>
 </div><!--wrap-->
 </header>
+<div class="waiting-room background">
+    <div class="mountain"></div>
+    <div class="wrap">
+        <div class="igloo"></div>
+        <div class="guy"></div>
+        <div class="bucket"></div>
+        <div class="girl">
+        	<div class="rope"></div>
+        </div>
+    </div>
+</div>
 <div class="error-page wrap">
-<div class="msg">
-<h3>Welcome to our waiting room!</h3>
-<p>Do'nt worry, you're already in queue<br>to grab the best fares we have</p> 
-<h2><i class="telp"></i> (021) 7020 6 888</h2>
-</div><!--welcome-->
+    <div class="msg">
+        <h3>Welcome to our waiting room!</h3>
+        <p>Do'nt worry, you're already in queue<br>to grab the best fares we have</p> 
+        <h2><i class="telp"></i> (021) 7020 6 888</h2>
+    </div><!--welcome-->
 </div><!--wrap-->
 <script type="text/javascript">
 
@@ -53,7 +63,7 @@
   _gaq.push(['_setCustomVar',
       5,                   // This custom var is set to slot #1.  Required parameter.
       'Error Page',     // The name acts as a kind of category for the user activity.  Required parameter.
-      'Waiting Room,               // This value of the custom variable.  Required parameter.
+      'Waiting Room',               // This value of the custom variable.  Required parameter.
       3                    // Sets the scope to session-level.  Optional parameter.
    ]);
   _gaq.push(['_trackEvent',
