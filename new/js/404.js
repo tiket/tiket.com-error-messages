@@ -34,7 +34,7 @@ $(function(){
 							$(".cloud-1, .cloud-2, .cloud-3").fadeIn("slow");
 							$(".cloud-1, .cloud-2, .cloud-3").plaxify({"xRange":75,"yRange":75});
 							$(".balloon-big").plaxify({"xRange":25,"yRange":25});
-							$(".balloon-small").plaxify({"xRange":150,"yRange":150});
+							$(".balloon-small").plaxify({"xRange":100,"yRange":100});
 							$(".question-mark").plaxify({"xRange":10,"yRange":10});
 							$.plax.enable();
 						}
