@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+$wrap: 978px;
+$font: "Droid Sans", arial, helvetica, sans-serif;
+$blue: #1c5282;  
+$orange: #ff720a;
+$border: #dddddd;
+$grey: #eaeef0;
+
+body{
+	background-color: #fff;
+	font: 400 normal 12px $font;
+}
+.wrap{
+	display:block;
+	width: $wrap;
+	margin: auto;
+}
+footer{
+	display:block;
+	background-color: $grey;
+	border-top:1px solid $border;
+}
+.pembayaran{
+	display:block;
+	width: $wrap;
+	height: 30px;
+	background: 
+}

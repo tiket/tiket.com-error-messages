@@ -1,0 +1,219 @@
+.mainbar{
+	display: $b;
+	float: right;
+	width: 588px;
+	.promo{
+		margin-bottom: $margin;
+		li{
+			border: 1px solid $border;
+			margin-bottom: $margin;
+			display: $b;
+			@include border-radius(3px);
+			img{
+				float:left;
+			}
+			.text{
+				float:right;
+				width:140px;
+				h3{
+					font-size: 14px;
+					font-weight: 700;
+					padding: 5px 10px 5px 8px;
+					letter-spacing: -0.5px;
+					.raquo{
+						display: inline-block;
+						width: 13px;
+						height: 9px;
+						background: $sprites -992px -210px;
+					}
+				}
+				h2{
+					font-size: 20px;
+					font-weight: 700;
+					padding: 0 10px;
+				}
+				p{
+					padding: 0 10px;
+				}
+			}
+		}
+		li:hover{
+			box-shadow: 0px 0px 5px orange;
+		}
+		.caris{
+			font-size: 14px;
+			font-weight: 700;
+			text-align: right;
+			.raquo{
+				display: inline-block;
+				width: 13px;
+				height: 9px;
+				background: $sprites -992px -210px;
+			}
+		}
+	}
+	.subscribe{
+		background: #bae3fe;
+		padding: 15px;
+		margin-bottom: 20px;
+		h3{
+			font-size: 18px;
+			font-weight: 700;
+			padding-bottom: 8px;
+		}
+		input[type=text]{
+			width: 110px;
+			margin-right: 5px;
+			float: left;	
+			line-height: 36px;
+			height: 36px;		
+		}
+		input[type=text].i2{
+			width: 215px;
+		}
+		button{
+			font: 400 normal 16px/36px $font;
+			height: 36px;
+			padding: 0 5px;
+			.raquo{
+				display: inline-block;
+				width: 15px;
+				height: 12px;
+				background: $sprites -1003px -197px;
+			}
+		}
+	}
+	.smcount{
+		display: $b;
+		margin-bottom: 30px;
+		.twc{
+			float: right;
+			margin-right: -20px;
+		}
+	}
+	.topsell_title{
+		display:block;
+		position: relative;
+		h2{
+			color:#15629b;
+			font-weight: 700;
+			font-size:24px;
+			border-bottom: 1px solid $border;
+			padding-bottom: 5px;
+			i{
+				display: inline-block;
+				width: 10px;
+				height:7px;
+				background: $sprites -473px -130px;
+			}
+		}
+		.down{
+			font-size: 14px;
+			position: absolute;
+			border: 1px solid #cad3db;
+			padding: 10px 15px;
+			background-color: #fff;
+			@include border-radius(3px);
+			box-shadow: -1px 1px 1px #666;
+			line-height: 180%;
+			display: none;
+			z-index: 1000;
+			margin: 0;
+			width: 320px;
+			a{
+				margin:0;
+			}
+		}
+	}
+	.topsell_title:hover{
+		.down{
+			display: $b;
+		}
+		a{
+			color: $orange;
+		}
+		h2 i{
+			background: $sprites -508px -133px;
+		}
+	}
+	.topsell_title:hover .down a{
+		color: $blue;
+	}
+	.topsell_title:hover .down a:hover{
+		color: $orange;
+	}
+	.topsell_list{
+		li{
+			padding: 20px 0;
+			border-bottom: 1px solid $border;
+			img{
+				float: left;
+				margin-right: 12px;
+			}
+			.price{
+				float: right;
+				text-align: right;
+				font-size: 16px;
+				h4{
+					color: $orange;
+					font-size: 22px;
+					font-weight: 700;
+					padding: 5px 0 10px 0;
+				}
+				.strike{
+					text-decoration: line-through;
+					color: $orange;
+					del{
+						text-decoration: none;
+						color: #222;
+					}
+				}
+			}
+			h3{
+				font-size: 16px;
+				font-weight: 700;
+				padding-bottom: 5px;
+				width: 350px;
+			}
+			.green{
+				color: #51903a;
+				padding-left: 10px;
+				vertical-align: 3px;
+			}
+			p{
+				padding: 10px 0 0 0;
+				strong{
+					font-weight: 700;
+					padding-left: 15px;
+					.raquo{
+						display: inline-block;
+						width: 10px;
+						height: 8px;
+						background: $sprites -979px -202px;
+					}
+				}
+			}
+		}
+		li:hover{
+			background-color: #fdfde1;
+			background-image:linear-gradient(to right, #ffffff 0%, #fdfde1 30%, #fdfde1 70%, #ffffff 100%);
+		}
+		.save{
+			display: $b;
+			height: 57px;
+			width: 75px;
+			background: $sprites -370px -78px;
+			text-align: center;
+			position: absolute;
+			color: #9e0b0f;
+			font-weight: 700;
+			font-size: 14px;
+			padding-top: 20px;
+			margin: 20px 0 0 360px;
+			strong{
+				font-size: 22px;
+				line-height: 22px;
+			}
+		}
+	}
+}

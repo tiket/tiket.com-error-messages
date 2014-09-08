@@ -1,0 +1,172 @@
+.wrapmodal{
+    overflow-x: auto;
+    overflow-y: scroll;
+    background: none repeat scroll 0 0 rgba(41, 47, 51, 0.9);
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 400;
+    .popmodal{
+        display: table;
+        height: 100%;
+        table-layout: fixed;
+        width: 100%;
+        .modalbox{
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+            .mbox{
+            	position: relative;
+            	display: inline-block;
+                outline: medium none;
+                text-align: left;
+                top: 20px;
+                .modal{
+                	width: 385px;
+                    background: #fff;
+                	border: 1px solid #ccc;
+                	padding: 0;
+                    border-radius: 5px;
+                    .close{
+                        float: right;
+                        margin: 15px 20px 0 0;
+                        font-size: 18px;
+                    }
+                    h3{
+                        border-bottom: 1px solid #ddd;
+                        padding: 20px 30px;
+                        color: #888989;
+                        font-size: 22px;
+                    }
+                    .loginbox{
+                        padding: 20px 30px;
+                        font-size: 16px;
+                        label{
+                            margin-bottom: 5px;
+                            display: inline-block;
+                        }
+                        input[type=text],
+                        input[type=password]{
+                            height: 40px;
+                            width: 300px;
+                            margin-bottom: 20px;
+                        }
+                        button{
+                            height: 40px;
+                            line-height: 40px;
+                            font-size: 18px;
+                            padding: 0 20px;
+                            .raquo{
+                                display: inline-block;
+                                width: 15px;
+                                height: 12px;
+                                background: $sprites -1003px -197px;
+                            }
+                        }
+                        .btnlogin{
+                            float: right;
+                            margin-bottom: 30px;
+                            margin-right: 4px;
+                        }
+                        .fblogin{
+                            background-color: #15629b;
+                            width: 320px;
+                            margin-bottom: 20px;
+                            i{
+                                display: inline-block;
+                                width: 14px;
+                                height: 26px;
+                                background: $sprites -739px -164px;
+                                float: left;
+                                margin-top: 6px;
+                            }
+                        }
+                        .fblogin:hover{
+                            background-color: #002d5d;
+                        }
+                    }
+                }
+                .modal_kamar{
+                    width: 850px;
+                    .in{
+                        padding: 10px 40px 40px;
+                    }
+                    img{
+                        float: left;
+                        margin: 0 20px 0 0;
+                    }
+                    h4{
+                        font-weight: 700;
+                        color: #ff720a;
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                }
+                .modal_map{
+                    width: 960px;
+                    padding: 20px;
+                    .close{
+                        margin: -10px -5px 0 0;
+                    }
+                    h4{
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #ff720a;
+                        margin-bottom: 10px;
+                    }
+                    .mapbox{
+                        width: 800px;
+                        float: left;
+                    }
+                    .agenda{
+                        float: right;
+                        width: 150px;
+                        li{
+                            margin: 10px 0;
+                            padding-left: 25px;
+                            .opt{
+                                margin-left: -20px;
+                                vertical-align: -2px;
+                            }
+                        }
+                        p{
+                            margin-bottom: 20px;
+                            line-height: 24px;
+                            i{
+                                vertical-align: middle;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+                .modal_foto{
+                    width: 565px;
+                    h4{
+                        color: #fff;
+                        background-color: #898989;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 33px;
+                        padding: 0 15px;
+                        .close{
+                            color: #fff;
+                            margin: 0;
+                        }
+                    }
+                    .showcase {
+                        margin: 20px;
+                        width: 525px;
+                    }
+                }
+            }
+        }
+    }
+}

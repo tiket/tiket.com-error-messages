@@ -1,0 +1,113 @@
+.hotel-mainbar{
+	width: 714px;
+	float: right;
+	.hotel-area{
+		margin-bottom: 40px;
+		.title-box{
+		    background: none repeat scroll 0 0 rgba(41, 47, 51, 0.7);
+		    color: #FFFFFF;
+		    position: absolute;
+		    margin: -160px 0 0 420px;
+		    width: 263px;
+		    border-radius: 3px;
+		    text-align: right;
+		    padding: 10px;
+		    font-size: 18px;
+		    h2{
+		    	font-size: 36px;
+		    	font-weight: 700;
+		    }
+		    strong{
+		    	font-weight: 700;
+		    }
+		}
+		li{
+			border: 1px solid #dfe0e1;
+			margin-bottom: 5px;
+			padding: 10px;
+			img{
+				float:left;
+				margin: 0 10px 0 0;
+				border: 1px solid #cbcccc;
+			}
+		}
+		li:hover{
+			background-color: #fdfde1;
+		}
+		li:after {
+	        content: ".";
+	        display: block;
+	        height: 0;
+	        clear: both;
+	        visibility: hidden;
+	    }
+		.save {
+		    background: url("../img/sprites.png") repeat scroll -768px -126px rgba(0, 0, 0, 0);
+		    color: #9E0B0F;
+		    display: block;
+		    font-size: 11px;
+		    font-weight: 700;
+		    height: 49px;
+		    width: 62px;
+		    margin: 10px 0 0 420px;
+		    padding-top: 15px;
+		    position: absolute;
+		    text-align: center;
+		    strong{
+		        font-size: 18px;
+			    line-height: 18px;
+		    }
+		}
+	    .detail-hotel{
+	    	float:left;
+	    	h3{
+	    		display: inline-table;
+	    		font-weight: 700;
+	    		font-size: 18px;
+	    		margin-right:20px;
+	    		margin-bottom: 10px;
+	    	}
+	    	p{
+	    		font-size: 12px;
+	    		margin-bottom: 12px;
+	    		strong{
+	    			margin-left: 20px;
+	    			font-weight: 700;
+	    		}
+				.raquo{
+					display: inline-block;
+					width: 10px;
+					height: 8px;
+					background: $sprites -979px -202px;
+				}
+	    	}
+	    	em{
+	    		font-style: italic;
+	    		font-size: 14px;
+	    	}
+	    }
+	    .harga-hotel{
+	    	float:right;
+	    	text-align:right;
+	    	.green{
+    		    color: #51903A;
+			    padding-left: 10px;
+			    vertical-align: 3px;
+	    	}
+	    	.strike{
+    		    color: #FF720A;
+			    text-decoration: line-through;
+			    font-size: 16px;
+			    del{
+		    	    color: #222222;
+				    text-decoration: none;
+			    }
+	    	}
+	    	h4{
+	    		color: #ff720a;
+	    		font-size: 22px;
+	    		font-weight: 700;
+	    	}
+	    }
+	}
+}

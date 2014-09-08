@@ -4,7 +4,7 @@ License: none (public domain) */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, footer h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, images, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -386,7 +386,7 @@ header {
         -moz-column-gap: 20px;
         -webkit-column-gap: 20px;
         column-gap: 20px; }
-        .menubox .searchbox .content .event5 images {
+        .menubox .searchbox .content .event5 img {
           float: left;
           margin-right: 8px; }
         .menubox .searchbox .content .event5 li {
@@ -457,7 +457,7 @@ header {
   .search-hotel .slide-hotel {
     float: right;
     width: 390px; }
-    .search-hotel .slide-hotel images {
+    .search-hotel .slide-hotel img {
       border-radius: 3px;
       border: 1px solid #fff; }
 
@@ -559,7 +559,7 @@ header {
   .search-flight .slide-flight {
     float: right;
     width: 390px; }
-    .search-flight .slide-flight images {
+    .search-flight .slide-flight img {
       border-radius: 3px;
       border: 1px solid #fff; }
 
@@ -612,7 +612,7 @@ header {
       float: left;
       display: inline-block;
       margin: 0 10px 10px 0; }
-      .sidebar .colpop li images {
+      .sidebar .colpop li img {
         z-index: 0;
         position: relative; }
       .sidebar .colpop li p {
@@ -741,7 +741,7 @@ header {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      .mainbar .promo li images {
+      .mainbar .promo li img {
         float: left; }
       .mainbar .promo li .text {
         float: right;
@@ -850,7 +850,7 @@ header {
   .mainbar .topsell_list li {
     padding: 20px 0;
     border-bottom: 1px solid #dddddd; }
-    .mainbar .topsell_list li images {
+    .mainbar .topsell_list li img {
       float: left;
       margin-right: 12px; }
     .mainbar .topsell_list li .price {
@@ -920,7 +920,7 @@ header {
     .hotel-sidebar .colpop li {
       display: inline-block;
       margin: 0 0 10px 0; }
-      .hotel-sidebar .colpop li images {
+      .hotel-sidebar .colpop li img {
         z-index: 0;
         position: relative; }
       .hotel-sidebar .colpop li p {
@@ -955,7 +955,7 @@ header {
     .hotel-sidebar .view-hotel li {
       border-bottom: 1px solid #ddd;
       padding: 12px; }
-      .hotel-sidebar .view-hotel li images {
+      .hotel-sidebar .view-hotel li img {
         float: left;
         border: 1px solid #d0d0d0;
         margin: 0 8px 0 0; }
@@ -996,7 +996,7 @@ header {
       border: 1px solid #dfe0e1;
       margin-bottom: 5px;
       padding: 10px; }
-      .hotel-mainbar .hotel-area li images {
+      .hotel-mainbar .hotel-area li img {
         float: left;
         margin: 0 10px 0 0;
         border: 1px solid #cbcccc; }
@@ -1009,7 +1009,7 @@ header {
       clear: both;
       visibility: hidden; }
     .hotel-mainbar .hotel-area .save {
-      background: url("../images/sprites.png") repeat scroll -768px -126px rgba(0, 0, 0, 0);
+      background: url("../img/sprites.png") repeat scroll -768px -126px transparent;
       color: #9E0B0F;
       display: block;
       font-size: 11px;
@@ -1178,7 +1178,7 @@ header {
     padding: 15px;
     border: 1px solid #dddddd;
     margin-bottom: 10px; }
-    .ditemukan .hotel_ditemukan li images {
+    .ditemukan .hotel_ditemukan li img {
       float: left;
       margin-right: 12px;
       border: 1px solid #d3d3d3; }
@@ -1282,7 +1282,7 @@ header {
     padding: 14px;
     margin-top: 8px;
     font-size: 14px; }
-    .result-word li images {
+    .result-word li img {
       float: left;
       border: 1px solid #d6d6d6;
       margin: 0 10px 0 0; }
@@ -1346,7 +1346,7 @@ header {
     .detail-sidebar .view-hotel li {
       border-bottom: 1px solid #ddd;
       padding: 12px; }
-      .detail-sidebar .view-hotel li images {
+      .detail-sidebar .view-hotel li img {
         float: left;
         border: 1px solid #d0d0d0;
         margin: 0 8px 0 0; }
@@ -1404,7 +1404,7 @@ header {
     float: left;
     width: 415px;
     height: 295px; }
-    .detail-mainbar .detail-foto images:hover {
+    .detail-mainbar .detail-foto img:hover {
       opacity: 0.8; }
   .detail-mainbar .detail-list {
     float: right;
@@ -1412,7 +1412,7 @@ header {
     text-align: right;
     font-size: 14px;
     font-weight: 700; }
-    .detail-mainbar .detail-list images:hover {
+    .detail-mainbar .detail-list img:hover {
       opacity: 0.8; }
     .detail-mainbar .detail-list ul li {
       display: inline-block;
@@ -1445,19 +1445,19 @@ header {
       line-height: 36px;
       margin-bottom: -1px; }
       .detail-mainbar .tempat-menarik .trigger span {
-        background: url("../images/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+        background: url("../img/sprites.png") no-repeat scroll -979px -190px transparent;
         display: inline-block;
         height: 8px;
         margin: 0 0 0 10px;
         width: 11px; }
     .detail-mainbar .tempat-menarik .active span {
-      background: url("../images/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0); }
+      background: url("../img/sprites.png") no-repeat scroll -990px -190px transparent; }
     .detail-mainbar .tempat-menarik .tempat {
       float: left;
       width: 210px;
       height: 70px;
       margin: 10px 0 0 20px; }
-      .detail-mainbar .tempat-menarik .tempat images {
+      .detail-mainbar .tempat-menarik .tempat img {
         float: left;
         margin: 0 7px 0 0; }
       .detail-mainbar .tempat-menarik .tempat h4, .detail-mainbar .tempat-menarik .tempat footer h3, footer .detail-mainbar .tempat-menarik .tempat h3 {
@@ -1514,7 +1514,7 @@ header {
         font-size: 18px;
         font-weight: 700;
         margin-bottom: 10px; }
-      .detail-mainbar .pilih-kamar .info images {
+      .detail-mainbar .pilih-kamar .info img {
         float: left;
         margin: 0 10px 0 0; }
       .detail-mainbar .pilih-kamar .info .i {
@@ -1557,7 +1557,7 @@ header {
           display: inline-block;
           padding-bottom: 5px; }
         .detail-mainbar .pilih-kamar .nilai .kamar .save {
-          background: url("../images/sprites.png") repeat scroll -768px -126px rgba(0, 0, 0, 0);
+          background: url("../img/sprites.png") repeat scroll -768px -126px transparent;
           color: #9E0B0F;
           display: block;
           font-size: 11px;
@@ -1578,13 +1578,13 @@ header {
       padding: 0 20px;
       line-height: 36px; }
       .detail-mainbar .pilih-kamar .trigger span {
-        background: url("../images/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+        background: url("../img/sprites.png") no-repeat scroll -979px -190px transparent;
         display: inline-block;
         height: 8px;
         margin: 0 0 0 10px;
         width: 11px; }
     .detail-mainbar .pilih-kamar .active span {
-      background: url("../images/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0); }
+      background: url("../img/sprites.png") no-repeat scroll -990px -190px transparent; }
   .detail-mainbar .hotel-detail {
     border: 1px solid #ddd;
     margin-bottom: 45px;
@@ -1621,13 +1621,13 @@ header {
       font-size: 18px;
       margin: 20px 0 20px 20px; }
     .detail-mainbar .hotel-detail .trigger span {
-      background: url("../images/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+      background: url("../img/sprites.png") no-repeat scroll -979px -190px transparent;
       display: inline-block;
       height: 8px;
       margin: 0 0 0 5px;
       width: 11px; }
     .detail-mainbar .hotel-detail .active span {
-      background: url("../images/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0); }
+      background: url("../img/sprites.png") no-repeat scroll -990px -190px transparent; }
     .detail-mainbar .hotel-detail ul {
       padding: 0 20px 20px; }
     .detail-mainbar .hotel-detail li {
@@ -1756,7 +1756,7 @@ header {
       -ms-border-radius: 3px;
       -o-border-radius: 3px;
       border-radius: 3px; }
-      .flight-mainbar .promo li images {
+      .flight-mainbar .promo li img {
         float: left; }
       .flight-mainbar .promo li .text {
         float: right;
@@ -2222,7 +2222,7 @@ header {
       .flight-list .datepicker .down h3 .prev, .flight-list .datepicker .down h3 .next,
       .flight-col .datepicker .down h3 .prev,
       .flight-col .datepicker .down h3 .next {
-        background-image: url(../images/sprites.png);
+        background-image: url(../img/sprites.png);
         background-repeat: no-repeat;
         background-position: -561px -146px;
         display: inline-block;
@@ -2526,12 +2526,18 @@ header {
 .colr {
   float: right; }
 
+.error-body {
+  position: fixed;
+  height: 100%;
+  width: 100%; }
+
 .error-page {
-  min-height: 550px;
-  background: url(../images/balloon.png) no-repeat top right; }
+  min-height: 550px; }
   .error-page .msg {
     width: 250px;
-    padding: 205px 0 0 0; }
+    padding: 205px 0 0 0;
+    position: relative;
+    z-index: 99; }
     .error-page .msg h3 {
       font-weight: 700;
       font-size: 27px;
@@ -2556,6 +2562,122 @@ header {
       height: 18px;
       vertical-align: middle;
       margin-right: 3px; }
+  .error-page .background {
+    width: 649px;
+    height: 544px;
+    position: absolute;
+    margin-left: 329px;
+    z-index: 0; }
+    .error-page .background .balloon-small {
+      width: 47px;
+      height: 66px;
+      margin-left: 204px;
+      margin-top: 103px;
+      background: url(../images/404-page-sprite.png) no-repeat;
+      background-position-x: 0;
+      background-position-y: -101px;
+      position: absolute;
+      display: none; }
+    .error-page .background .cloud-1 {
+      width: 101px;
+      height: 24px;
+      margin-left: 135px;
+      margin-top: 223px;
+      background: url(../images/404-page-sprite.png) no-repeat;
+      background-position-x: 0;
+      background-position-y: 0;
+      position: absolute;
+      display: none; }
+    .error-page .background .cloud-2 {
+      width: 85px;
+      height: 20px;
+      margin-left: 0;
+      margin-top: 524px;
+      background: url(../images/404-page-sprite.png) no-repeat;
+      background-position-x: 0;
+      background-position-y: -28px;
+      position: absolute;
+      display: none; }
+    .error-page .background .cloud-3 {
+      width: 180px;
+      height: 44px;
+      margin-left: 468px;
+      margin-top: 460px;
+      background: url(../images/404-page-sprite.png) no-repeat;
+      background-position-x: 0;
+      background-position-y: -53px;
+      position: absolute;
+      display: none; }
+    .error-page .background .balloon-big {
+      width: 330px;
+      height: 511px;
+      position: absolute;
+      margin-left: 244px;
+      margin-top: 1024px; }
+      .error-page .background .balloon-big .air-balloon {
+        width: 253px;
+        height: 282px;
+        margin-left: 76px;
+        margin-top: 0;
+        background: url(../images/404-page-sprite.png) no-repeat;
+        background-position-x: -263px;
+        background-position-y: 0;
+        position: absolute; }
+      .error-page .background .balloon-big .passenger {
+        width: 260px;
+        height: 242px;
+        margin-left: 0;
+        margin-top: 268px;
+        background: url(../images/404-page-sprite.png) no-repeat;
+        background-position-x: 0;
+        background-position-y: -167px;
+        position: absolute; }
+        .error-page .background .balloon-big .passenger .question-mark {
+          width: 13px;
+          height: 14px;
+          margin-left: 226px;
+          margin-top: 52px;
+          background: url(../images/404-page-sprite.png) no-repeat;
+          background-position-x: -47px;
+          background-position-y: -153px;
+          position: absolute;
+          display: none; }
+        .error-page .background .balloon-big .passenger .load-1 {
+          width: 29px;
+          height: 39px;
+          margin-left: 104px;
+          margin-top: 162px;
+          background: url(../images/404-page-sprite.png) no-repeat;
+          background-position-x: -47px;
+          background-position-y: -101px;
+          position: absolute; }
+        .error-page .background .balloon-big .passenger .load-2 {
+          width: 29px;
+          height: 39px;
+          margin-left: 178px;
+          margin-top: 162px;
+          background: url(../images/404-page-sprite.png) no-repeat;
+          background-position-x: -76px;
+          background-position-y: -101px;
+          position: absolute; }
+        .error-page .background .balloon-big .passenger .load-3 {
+          width: 42px;
+          height: 39px;
+          margin-left: 236px;
+          margin-top: 158px;
+          background: url(../images/404-page-sprite.png) no-repeat;
+          background-position-x: -105px;
+          background-position-y: -101px;
+          position: absolute; }
+      .error-page .background .balloon-big .load-4 {
+        width: 33px;
+        height: 39px;
+        margin-left: 244px;
+        margin-top: 409px;
+        background: url(../images/404-page-sprite.png) no-repeat;
+        background-position-x: -147px;
+        background-position-y: -101px;
+        position: absolute; }
 
 .waiting-room {
   min-height: 650px;
@@ -2597,7 +2719,7 @@ header {
 .flag {
   width: 25px;
   height: 15px;
-  background: url(../images/flags.png) no-repeat;
+  background: url(../img/flags.png) no-repeat;
   display: inline-block; }
 
 .flag.flag-ad {
@@ -3489,7 +3611,7 @@ footer {
           width: 850px; }
           .wrapmodal .popmodal .modalbox .mbox .modal_kamar .in {
             padding: 10px 40px 40px; }
-          .wrapmodal .popmodal .modalbox .mbox .modal_kamar images {
+          .wrapmodal .popmodal .modalbox .mbox .modal_kamar img {
             float: left;
             margin: 0 20px 0 0; }
           .wrapmodal .popmodal .modalbox .mbox .modal_kamar h4, .wrapmodal .popmodal .modalbox .mbox .modal_kamar footer h3, footer .wrapmodal .popmodal .modalbox .mbox .modal_kamar h3 {

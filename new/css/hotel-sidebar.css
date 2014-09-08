@@ -1,0 +1,93 @@
+/*
+Syntax error: Undefined variable: "$b".
+        on line 21 of css/hotel-sidebar.scss
+
+16: 			img{
+17: 				z-index:0;
+18: 				position: relative;
+19: 			}
+20: 			p{
+21: 				display: $b;
+22: 				background: none repeat scroll 0 0 rgba(41, 47, 51, 0.7);
+23: 				line-height: 20px;
+24: 				color: #fff;
+25: 				margin: -23px 0 0 0;
+26: 				z-index: 10;
+
+Backtrace:
+css/hotel-sidebar.scss:21
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/variable.rb:49:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$b\".\A         on line 21 of css/hotel-sidebar.scss\A \A 16: 			img{\A 17: 				z-index:0;\A 18: 				position: relative;\A 19: 			}\A 20: 			p{\A 21: 				display: $b;\A 22: 				background: none repeat scroll 0 0 rgba(41, 47, 51, 0.7);\A 23: 				line-height: 20px;\A 24: 				color: #fff;\A 25: 				margin: -23px 0 0 0;\A 26: 				z-index: 10;"; }

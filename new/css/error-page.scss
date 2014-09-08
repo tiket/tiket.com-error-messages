@@ -1,0 +1,149 @@
+$error-404-page-sprite: url(../images/404-page-sprite.png) no-repeat;
+.error-body{
+	position:fixed;
+	height:100%;
+	width:100%
+}
+.error-page{
+	min-height: 550px;
+	//background: url(../images/balloon.png) no-repeat top right;
+	.msg{
+		width: 250px;
+		padding: 205px 0 0 0;
+		position:relative;
+		z-index:99;
+		h3{
+			font-weight: 700;
+			font-size: 27px;
+			line-height: 30px;
+			color: $orange;
+			padding: 0 0 20px 0;
+		}
+		p{
+			font-size: 13px;
+			line-height: 17px;
+			padding: 0 0 20px 0;
+			a{
+				font-weight: 700;
+				font-size: 14px;
+			}
+		}
+		h2{
+			display: inline-block;
+			font-weight: 700;
+			font-size: 16px;
+		}
+		.telp{
+			display: inline-block;
+			background: $sprites -488px -119px;
+			width: 15px;
+			height: 18px;
+			vertical-align: middle;
+			margin-right: 3px;
+		}
+	}
+	.background{
+		width:649px;
+		height:544px;
+		position:absolute;
+		margin-left:329px;
+		z-index:0;
+		@mixin set-background($width,$height,$left,$top,$crop-left,$crop-top){
+			width:$width;
+			height:$height;
+			margin-left:$left;
+			margin-top:$top;
+			background:$error-404-page-sprite;
+			background-position-x:-$crop-left;
+			background-position-y:-$crop-top;
+			position:absolute;
+		}
+		.balloon-small{
+			@include set-background(47px,66px,204px,103px,0,101px);
+			display:none;
+		}
+		.cloud-1{
+			@include set-background(101px,24px,135px,223px,0,0);
+			display:none;
+		}
+		.cloud-2{
+			@include set-background(85px,20px,0,524px,0,28px);
+			display:none;
+		}
+		.cloud-3{
+			@include set-background(180px,44px,468px,460px,0,53px);
+			display:none;
+		}
+		.balloon-big{
+			width:330px;
+			height:511px;
+			position:absolute;
+			margin-left:244px;
+			margin-top:1024px;
+			.air-balloon{
+				@include set-background(253px,282px,76px,0,263px,0);
+			}
+			.passenger{
+				@include set-background(260px,242px,0,268px,0,167px);
+				.question-mark{
+					@include set-background(13px,14px,226px,52px,47px,153px);
+					display:none;
+				}
+				.load-1{
+					@include set-background(29px,39px,104px,162px,47px,101px);
+				}
+				.load-2{
+					@include set-background(29px,39px,178px,162px,76px,101px);
+				}
+				.load-3{
+					@include set-background(42px,39px,236px,158px,105px,101px);
+				}
+			}
+			.load-4{
+				@include set-background(33px,39px,244px,409px,147px,101px);
+			}
+		}
+	}
+}
+.waiting-room{
+	min-height: 650px;
+	background: url(../images/waiting.png) no-repeat center;
+}
+.welcome{
+	padding-top: 40px;
+	width: 350px;
+	h3{
+		font-weight: 700;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	p{
+		font-size: 14px;
+		padding-bottom: 10px;
+		line-height: 140%;
+	}
+	h2{
+		color: #ed1c24;
+		font-weight: 700;
+		font-size: 142px;
+		span{
+			font-weight: 400;
+			font-size: 25px;
+		}
+	}
+}
+.reminder{
+	padding: 10px;
+	background: #eee;
+	display: inline-block;
+	float: right;
+	margin: 160px 0 0 0;
+	i{
+		display: inline-block;
+		background: $sprites -628px -143px;
+		width: 27px;
+		height: 28px;
+		float: left;
+		margin-right: 10px;
+	}
+}

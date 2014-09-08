@@ -1,0 +1,342 @@
+.detail-mainbar{
+	width: 713px;
+	float: right;
+	.head{
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		h2{
+			font-size: 26px;
+			font-weight: 700;
+			padding-bottom: 10px;
+			i{
+				margin-left: 10px;
+			}
+		}
+		p{
+			font-size: 14px;
+			padding-bottom: 10px;
+			.lihat{
+				font-weight: 700;
+				margin-left: 10px;
+				font-size: 12px;
+			}
+		}
+		.i{
+			display: inline-block;
+			height: 21px;
+			width: 21px;
+			background: $sprites -830px -169px no-repeat;
+		}
+		.i2{
+			background: $sprites -852px -169px no-repeat;
+		}
+		.i3{
+			background: $sprites -872px -169px no-repeat;
+		}
+		.i4{
+			background: $sprites -893px -169px no-repeat;
+		}
+		.hright{
+			float: right;
+			text-align: right;
+			.green{
+				font-size: 12px;
+				color: #51903a;
+			}
+		}
+	}
+	.detail-foto{
+		float: left;
+		width: 415px;
+		height: 295px;
+		img:hover {
+		    opacity: 0.8;
+		}
+	}
+	.detail-list{
+		float: right;
+		width: 285px;
+		text-align: right;
+		font-size: 14px;
+		font-weight: 700;
+		img:hover {
+		    opacity: 0.8;
+		}
+		ul li {
+		    display: inline-block;
+		    float: left;
+		    height: 62px;
+		    margin: 0 0 8px 8px;
+		    width: 87px;
+		}
+	}
+	.ulasan{
+		margin: 35px 0;
+		h3{
+			font-size: 16px;
+		}
+		p{
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+	.tempat-menarik{
+		border: 1px solid #ddd;
+		margin-bottom: 45px;
+		h3{
+			color: #898989;
+			font-size: 20px;
+			line-height: 55px;
+			padding: 0 20px;
+			border-bottom: 1px solid #ddd;
+			font-weight: 700;
+		}
+		.trigger{
+			border-top: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			font-size: 14px;
+			padding: 0 20px;
+			line-height: 36px;
+			margin-bottom: -1px;
+			span {
+			    background: url("../img/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+			    display: inline-block;
+			    height: 8px;
+			    margin: 0 0 0 10px;
+			    width: 11px;
+			}
+		}
+		.active span {
+		    background: url("../img/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0);
+		}
+		.tempat{
+			float: left;
+			width: 210px;
+			height: 70px;
+			margin: 10px 0 0 20px;
+			img{ 
+				float: left;
+				margin: 0 7px 0 0;
+			}
+			h4{
+				font-size: 14px;
+				font-weight: 700;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.cari-kamar{
+		border: 1px solid #ddd;
+		background-color: #eaeef0;
+		color: #222;
+		font-size: 14px;
+		margin-bottom: -1px;
+		h3{
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 32px;
+			padding: 0 20px;
+			color: #fff;
+			background-color: #15629b;
+			border-bottom: 1px solid #9ab5ca;
+		}
+		form{
+			padding: 20px;
+		}
+		.col{
+			float:left;
+			width: 260px;
+			margin: 0 20px 0 0;
+		}
+		label{
+			display: inline-block;
+			padding-bottom: 5px;
+		}
+		input[type=text]{
+			width: 240px;
+		}
+		button{
+			margin: 20px 0 0 0;
+		}
+	}
+	.pilih-kamar{
+		border: 1px solid #ddd;
+		border-bottom: 0;
+		margin-bottom: 45px;
+		h2{
+			color: #898989;
+			font-size: 20px;
+			line-height: 55px;
+			padding: 0 20px;
+			border-bottom: 1px solid #ddd;
+			font-weight: 700;
+		}
+		.tipe-kamar{
+			padding: 30px 18px;
+			font-size: 14px;
+			border-bottom: 1px solid #ddd;
+		}
+		.info{
+			width: 360px;
+			float: left;
+			line-height: 22px;
+			h3{
+				font-size: 18px;
+				font-weight: 700;
+				margin-bottom: 10px;
+			}
+			img{
+				float: left;
+				margin: 0 10px 0 0;
+			}
+			.i{
+				display: none;
+			}
+			p a:hover .i{
+				display: inline-block;
+			}
+		}
+		.nilai{
+			width: 270px;
+			float: right;
+			text-align: right;
+			h4 {
+			    color: #FF720A;
+			    font-size: 22px;
+			    font-weight: 700;
+			    padding: 5px 0 10px;
+			}
+			.strike {
+			    color: #FF720A;
+			    text-decoration: line-through;
+			}
+			.strike del {
+			    color: #222222;
+			    text-decoration: none;
+			    font-size: 15px;
+			}
+			p{
+				color: #898989;
+				padding-bottom: 12px;
+			}
+			.stay{
+				display: block;
+				font-size: 12px;
+				font-weight: 700;
+				color: #fff;
+				background-color: #9e0b0f;
+				line-height: 20px;
+				text-align: center;
+				margin: 12px 0 0 0;
+			}
+			.kamar{
+				width: 62px;
+				float: left;
+				text-align: center;
+				label{
+					display: inline-block;
+					padding-bottom: 5px;
+				}
+				.save {
+				    background: url("../img/sprites.png") repeat scroll -768px -126px rgba(0, 0, 0, 0);
+				    color: #9E0B0F;
+				    display: block;
+				    font-size: 11px;
+				    font-weight: 700;
+				    height: 49px;
+				    margin: 15px 0 0 0;
+				    padding-top: 15px;
+				    text-align: center;
+				    width: 62px;
+				}
+				.save strong {
+				    font-size: 18px;
+				    line-height: 18px;
+				}
+			}
+		}
+			.tipe-kamar:hover{
+			background-color: #fdfde1;
+		}
+		.trigger{
+			border-bottom: 1px solid #ddd;
+			font-size: 14px;
+			padding: 0 20px;
+			line-height: 36px;
+			span {
+			    background: url("../img/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+			    display: inline-block;
+			    height: 8px;
+			    margin: 0 0 0 10px;
+			    width: 11px;
+			}
+		}
+		.active span {
+		    background: url("../img/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0);
+		}
+	}
+	.hotel-detail{
+		border: 1px solid #ddd;
+		margin-bottom: 45px;
+		font-size: 14px;
+		line-height: 24px;
+		h2{
+			color: #898989;
+			font-size: 20px;
+			line-height: 55px;
+			padding: 0 20px;
+			border-bottom: 1px solid #ddd;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+		.baca {
+		    display: inline-block;
+		    padding-top: 10px;
+		}
+		p{
+		    margin: 0;
+		    padding: 0 20px 20px;
+		}
+		hr {
+		    background-color: #EAEAEA;
+		    border: 0 none;
+		    height: 1px;
+		    margin: 0;
+		}
+		.fleft {
+		    float: left;
+		    width: 100px;
+		}
+		.fright {
+		    float: right;
+		    padding-top: 20px;
+		    width: 540px;
+		}
+		h3 {
+		    color: #15629B;
+		    font-size: 18px;
+		    margin: 20px 0 20px 20px;
+		}
+		.trigger{
+			span {
+			    background: url("../img/sprites.png") no-repeat scroll -979px -190px rgba(0, 0, 0, 0);
+			    display: inline-block;
+			    height: 8px;
+			    margin: 0 0 0 5px;
+			    width: 11px;
+			}
+		}
+		.active span {
+		    background: url("../img/sprites.png") no-repeat scroll -990px -190px rgba(0, 0, 0, 0);
+		}
+		ul{
+			padding: 0 20px 20px;
+		}
+		li{
+			display: inline-block;
+			width: 30%;
+			line-height: 26px;
+		}
+	}
+}

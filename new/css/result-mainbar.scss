@@ -1,0 +1,160 @@
+.ditemukan{
+	width: 713px;
+	float: right;
+	h2{
+		font-size: 28px;
+		font-weight: 700;
+		color: #898989;
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 10px;
+	}
+	.pagination{
+		float: right;
+		text-align: right;
+		font-size: 12px;
+		font-weight: 700;
+		margin-top: 20px;
+		.prev{
+			display: inline-block;
+			height: 9px;
+			width: 12px;
+			background: $sprites -980px -210px no-repeat;
+		}
+		.next{
+			display: inline-block;
+			height: 9px;
+			width: 12px;
+			background: $sprites -992px -210px no-repeat;
+		}
+		a{
+			border: 1px solid #cad3db;
+			padding: 8px 10px;
+			border-radius: 2px;
+			background-color: #eaeef0;
+		}
+		.on,
+		a:hover{
+			background-color: #fff;
+		}
+	}
+	.sortby{
+		float: left;
+		font-size: 14px;
+		margin: 10px 0 25px 0;
+	}
+	.hotel_ditemukan{
+		li{
+			padding: 15px;
+			border: 1px solid $border;
+			margin-bottom: 10px;
+			img{
+				float: left;
+				margin-right: 12px;
+				border: 1px solid #d3d3d3;
+			}
+			.price{
+				float: right;
+				text-align: right;
+				font-size: 15px;
+				.i{
+					display: inline-block;
+					height: 21px;
+					width: 21px;
+					background: $sprites -830px -169px no-repeat;
+					margin-bottom: 15px;
+				}
+				.i2{
+					background: $sprites -852px -169px no-repeat;
+				}
+				.i3{
+					background: $sprites -872px -169px no-repeat;
+				}
+				.i4{
+					background: $sprites -893px -169px no-repeat;
+				}
+				h4{
+					color: $orange;
+					font-size: 22px;
+					font-weight: 700;
+					padding: 5px 0 10px 0;
+				}
+				.strike{
+					text-decoration: line-through;
+					color: $orange;
+					del{
+						text-decoration: none;
+						color: #222;
+					}
+				}
+				small{
+					font-size: 12px;
+				}
+				button{
+					padding: 0 15px;
+				}
+			}
+			.name{
+				float: left;
+				width: 370px;
+				h3{
+					font-size: 18px;
+					font-weight: 700;
+					padding-bottom: 5px;
+					width: 260px;
+				}
+				.green{
+					color: #51903a;
+					padding-left: 10px;
+					vertical-align: 3px;
+				}
+				p{
+					padding: 0;
+					line-height: 25px;
+					strong{
+						font-weight: 700;
+						padding-left: 15px;
+						.raquo{
+							display: inline-block;
+							width: 10px;
+							height: 8px;
+							background: $sprites -979px -202px;
+						}
+					}
+					.sisa{
+						padding: 0;
+					}
+				}
+				em{
+					font-size: 14px;
+					font-style: italic;
+				}
+			}
+		}
+		li:hover{
+			background-color: #fdfde1;
+		}
+		.save{
+			font-family: nunito, arial, helvetica, sans-serif;
+			display: $b;
+			height: 66px;
+			width: 84px;
+			background: $sprites -915px -104px;
+			text-align: center;
+			position: absolute;
+			color: #9e0b0f;
+			font-weight: 700;
+			font-size: 14px;
+			padding-top: 20px;
+			margin: 10px 0 0 440px;
+			strong{
+				font-size: 24px;
+				line-height: 24px;
+			}
+		}
+		.best{
+			strong{
+				font-size: 20px;
+			}
+		}
+	}
+}

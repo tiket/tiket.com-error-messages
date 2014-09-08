@@ -1,0 +1,33 @@
+.result-word {
+  color: #333; }
+  .result-word h2 {
+    font-size: 22px; }
+    .result-word h2 strong {
+      color: #ff720a;
+      font-size: 26px;
+      font-weight: 700; }
+  .result-word h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #898989;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-top: 50px; }
+  .result-word li {
+    border: 1px solid #ddd;
+    padding: 14px;
+    margin-top: 8px;
+    font-size: 14px; }
+    .result-word li img {
+      float: left;
+      border: 1px solid #d6d6d6;
+      margin: 0 10px 0 0; }
+    .result-word li h4 {
+      font-size: 18px;
+      font-weight: 700;
+      display: inline-block;
+      padding: 0 10px 10px 0; }
+    .result-word li .flag {
+      border: 1px solid #d8d8d8;
+      margin-right: 8px;
+      vertical-align: -4px; }

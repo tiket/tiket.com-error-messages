@@ -1,0 +1,44 @@
+.flight-sidebar{
+	float: left;
+	width: 265px;
+	.partner{
+		border: 1px solid #ddd;
+		font-size: 15px;
+		margin-bottom: 40px;
+		h3{
+			font-size: 20px;
+			padding:15px;
+			color: #898989;
+			font-weight: 700;
+			border-bottom: 1px solid #ddd;
+		}
+		li{
+			padding: 15px;
+			.f0{
+			    margin-right: 15px;
+			}
+		}
+		.lihat{
+			padding: 15px;
+			font-weight: 700;
+		}
+	}
+	.newsbox{
+		border: 1px solid #ddd;
+		font-size: 14px;
+		line-height: 18px;
+		h3{
+			font-size: 20px;
+			padding:15px;
+			color: #898989;
+			font-weight: 700;
+		}
+		li{
+			border-top: 1px solid #ddd;
+			padding: 15px;
+			&:hover{
+				background-color: #fdfde1;
+			}
+		}
+	}
+}

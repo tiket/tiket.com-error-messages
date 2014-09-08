@@ -1,0 +1,85 @@
+.detail-sidebar{
+	width: 234px;
+	float: left;
+	.map-side{
+		margin-bottom: 40px;
+	}
+	.review{
+		border: 1px solid #ddd;
+		margin-bottom: 40px;
+		h3{
+			color: #898989;
+			font-weight: 700;
+			font-size: 20px;
+			border-bottom: 1px solid #ddd;
+			padding: 12px;
+			margin: 0;
+			.ico_advisor{
+				display: inline-block;
+				width: 94px;
+				height: 17px;
+				background: $sprites -362px -61px  no-repeat;
+				float: right;
+				margin: 5px 0 0 0;
+			}
+		}
+		.in{
+			padding: 15px;
+			h4{
+				color: #15629b;
+				font-size: 18px;
+			}
+			label{
+				display: inline-block;
+				width: 75px;
+			}
+			p{
+				font-size: 14px;
+				a{
+					font-weight: bold;
+				}
+			}
+			ul{
+				margin: 10px 0;
+			}
+			li{
+				padding: 5px 0;
+			}
+		}
+	}
+	.view-hotel{
+		border: 1px solid #ddd;
+		h3{
+			color: #898989;
+			font-weight: 700;
+			font-size: 20px;
+			border-bottom: 1px solid #ddd;
+			padding: 12px;
+			margin: 0;
+		}
+		li{
+			border-bottom: 1px solid #ddd;
+			padding: 12px;
+			img{
+				float:left;
+				border: 1px solid #d0d0d0;
+				margin: 0 8px 0 0;
+			}
+			h4{
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+		li:after {
+	        content: ".";
+	        display: block;
+	        height: 0;
+	        clear: both;
+	        visibility: hidden;
+	    }
+		li:last-child{
+			border: 0;
+		}
+	}
+}

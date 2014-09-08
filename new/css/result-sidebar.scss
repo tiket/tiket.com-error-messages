@@ -1,0 +1,57 @@
+.filter{
+	width: 222px;
+	border:1px solid #cad3db;
+	color: #201d1b;
+	float: left;
+	h2{
+		color:#898989;
+		font-weight: 700;
+		font-size: 20px;
+		padding: 15px;
+	}
+	h3{
+		font-size: 16px;
+		padding: 15px;
+		border-top: 1px solid #cad3db;
+	}
+	.trigger{
+		cursor: pointer;
+		span{
+			display:block;
+			width: 11px;
+			height: 8px;
+			background: $sprites -979px -190px no-repeat;
+			float: right;
+			margin: 20px 15px 0 0;
+		}
+	}
+	.active{
+		span{
+			background: $sprites -990px -190px no-repeat;
+		}
+	}
+	.toggle_container{
+		padding: 0 15px 15px 15px;
+	}
+	li{
+		font-size: 12px;
+		padding-left: 30px;
+		line-height: 24px;
+		strong{
+			float:right;
+		}
+		.opt{
+			display: inline-block;
+			width: 14px;
+			height:13px;
+			background: $sprites -669px -162px;
+			margin-left: -30px;
+			margin-right: 12px;
+			vertical-align: -2px;
+			cursor: pointer;
+		}
+		.opton{
+			background: $sprites -655px -162px;
+		}
+	}
+}

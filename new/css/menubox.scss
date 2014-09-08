@@ -1,0 +1,249 @@
+.menubox{
+	background: #28a1bf;
+	min-height: 277px;
+	padding: 20px 0;
+	.searchbox{
+		float: left;
+		background-color:#fff;
+		margin: 0;
+		width: 756px;
+		.tabs {
+			position: relative;   
+			min-height: 278px;
+			clear: both;
+			margin: 0;   
+			.tab {     
+				height: 46px; 
+				.label {
+					background: #28a1bf;
+					padding: 0; 
+					position: relative;     
+					width: 152px;
+					display: block;
+					height: 46px;
+					color: #fff;
+					text-shadow: 1px 1px 1px #674317;
+					font: normal 16px/46px $font ;
+					border-top: 1px solid #fff;
+				}
+				.label:hover{
+					opacity: 0.7;
+					cursor: pointer;
+				}
+				.label span{
+					display: block;
+					height: 46px;
+					width: 112px;
+					padding: 0 0 0 40px;
+					background: $sprites 0 -224px;
+					margin: 0;
+					position: absolute;
+					line-height: 46px;
+				}
+				.tab2 span{
+					background: $sprites 0 -270px;
+				}
+				.tab3 span{
+					background: $sprites 0 -316px;
+				}
+				.tab4 span{
+					background: $sprites 0 -362px;
+				}
+				.tab5 span{
+					background: $sprites 0 -408px;
+				}
+				.tab6 span{
+					background: $sprites 0 -454px;
+				}
+				[type=radio] {
+					display: none;   
+				}
+			}
+			.tab:last-child .label{
+				border-bottom: 1px solid #fff;
+			}
+			[type=radio]:checked ~ .label,
+			[type=radio]:checked ~ .label:hover {
+				background: #fff;
+				text-shadow: 1px 1px 1px #a9a9a9;
+				z-index: 2;
+				color: #222;
+				opacity: 1;
+			}
+			[type=radio]:checked ~ .tab1 span{
+				background: $sprites -152px -224px;
+			}
+			[type=radio]:checked ~ .tab2 span{
+				background: $sprites -152px -270px;
+			}
+			[type=radio]:checked ~ .tab3 span{
+				background: $sprites -152px -316px;
+			}
+			[type=radio]:checked ~ .tab4 span{
+				background: $sprites -152px -362px;
+			}
+			[type=radio]:checked ~ .tab5 span{
+				background: $sprites -152px -408px;
+			}
+			[type=radio]:checked ~ .tab6 span{
+				background: $sprites -152px -454px;
+			}
+			[type=radio]:checked ~ .label ~ .content {
+				z-index: 1;
+			}
+		}
+		.content {
+			position: absolute;
+			top: 0px;
+			left: 152px;
+			background: #fff;
+			right: 0;
+			bottom: 0;
+			padding: 15px 25px;
+			border-left: 0;  
+			h3{
+				font-weight:700;
+				font-size: 20px;
+				padding: 0 0 10px 0;
+			}
+			label{
+				font-size: 14px;
+				padding-bottom: 5px;
+				display: inline-block;
+			}
+			input[type=text]{
+				margin-bottom: 15px;
+			}
+			button{
+				padding: 0 15px;
+				font: 400 normal 18px/40px $font;
+				position: absolute;
+				bottom: 15px;
+				.raquo{
+					display: inline-block;
+					width: 15px;
+					height: 12px;
+					background: $sprites -1003px -197px;
+				}
+			}
+			.itujuan{
+				width: 530px;
+			}
+			.col2{
+				width: 262px;
+				float: left;
+				margin-right: 30px;
+				input[type=text]{
+					width: 238px;
+				}
+			}
+			.col5a{
+				float:left;
+				width: 172px;
+				margin-right: 20px;
+				input[type=text]{
+					width: 150px;
+				}
+			}
+			.col5b{
+				float: left;
+				width: 50px;
+				margin-right: 10px;
+				small{
+					font-size: 10px;
+				}
+			}
+			.col3a{
+				float: left;
+				width: 242px;
+				margin-right: 10px;
+				input[type=text]{
+					width: 135px;
+					float: left;
+					margin-right: -3px;
+				}
+			}
+			.col0{
+				margin-right: 0;
+			}
+			.pp{
+				font-size: 14px;
+				margin-bottom: 15px;
+				li{
+					display: inline-block;
+					margin-right: 30px;
+					i{
+						display: inline-block;
+						width: 16px;
+						height:15px;
+						background: $sprites -667px -175px;
+						margin-right: 5px;
+						vertical-align: -3px;
+					}
+					a{
+						color:#222;
+					}
+				}
+				.selected{
+					i{
+						background: $sprites -651px -175px;
+					}
+				}
+			}
+			.flip{
+			    background: $sprites -719px -152px;
+			    cursor: pointer;
+			    display: block;
+			    float: left;
+			    height: 19px;			  
+			    width: 20px;
+			    margin: 27px 0 0 -25px;
+			}
+			.flip:hover {
+			    background: $sprites -719px -171px;
+			}
+			.event5{
+				@include column-count(2);	
+				@include column-gap(20px);
+				img{
+					float: left;
+					margin-right: 8px;
+				}
+				li{
+					margin-bottom: 10px;
+				}
+				h4{
+					font-weight:700;
+					font-size: 14px;
+				}
+				small{
+					font-size: 12px;
+				}
+				.feat{
+					color: #fff;
+					background-color: #15629b;
+					padding-right: 8px;
+					a{
+						color: #fff;
+					}
+					h4{
+						padding-top: 8px;
+					}
+				}
+			}
+		}
+	}
+	.slides{
+		float:right;
+		border: 2px solid #fff;
+		@include border-radius(3px);
+		width: 211px;
+		height: 273px;
+	}
+}
+
+
+
+
+
+

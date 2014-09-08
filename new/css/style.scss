@@ -1,0 +1,351 @@
+@import 'reset';
+@import 'variables';
+@import 'header';
+@import 'menubox';
+@import 'search-hotel';
+@import 'search-flight';
+@import 'sidebar';
+@import 'mainbar';
+@import 'hotel-sidebar';
+@import 'hotel-mainbar';
+@import 'result-header';
+@import 'result-sidebar';
+@import 'result-mainbar';
+@import 'result-word';
+@import 'detail-sidebar';
+@import 'detail-mainbar';
+@import 'flight-sidebar';
+@import 'flight-mainbar';
+@import 'flight-search';
+@import 'error-page';
+@import 'flags';
+@import 'footer';
+@import 'modal';
+
+a{
+	color: #15629b;
+	text-decoration: none;
+}
+a:hover{
+	color: $orange;
+}
+.clear{
+	clear: both;
+}
+body{
+	background-color: #fff;
+	font: 400 normal 12px $font;
+	color: #222;
+}
+.wrap{
+	display: $b;
+	width: $wrap;
+	margin: auto;
+}
+.landing{
+	background-color: #fff;
+	padding: 35px 0;
+}
+input[type=text],
+input[type=password],
+select,
+textarea{
+	padding: 0 10px;
+	border: 1px solid #cad3db;
+	font: 400 normal 14px/30px $font;
+	@include border-radius(2px);	
+	min-height:30px;
+}
+select{
+	padding: 6px;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+select:focus,
+textarea:focus{
+	border:   1px solid #ffa07a;
+	box-shadow:   1px 1px 4px #ffe4b5 inset;
+	outline: 0;
+}
+input[type=button],
+button{
+	padding: 0 10px;
+	font: 400 normal 14px/30px $font;
+	background-color: $orange;
+	color: #fff;
+	cursor: pointer;
+	border: 0px;
+	text-shadow: -1px -1px 1px #666;
+	@include border-radius(2px);
+	box-shadow: -1px 1px 1px #666;
+	.raquo{
+		display: inline-block;
+		width: 13px;
+		height: 8px;
+		background: $sprites -1004px -209px;
+	}
+}
+input[type=button]:hover,
+button:hover{
+	background-color: #f79623;
+}
+.star{
+	display: inline-block;
+	width: 60px;
+	height: 12px;
+	background: $sprites2 -450px 0px;
+	span{
+		display:none;
+	}
+}
+.star4{
+	background: $sprites2 -450px -12px;
+}
+.star3{
+	background: $sprites2 -450px -24px;
+}
+.star2{
+	background: $sprites2 -450px -36px;
+}
+.star1{
+	background: $sprites2 -450px -48px;
+}
+.star0{
+	background: $sprites2 -450px -60px;
+}
+.point{
+	display: inline-block;
+	width: 102px;
+	height: 18px;
+	background: $sprites2 -118px 0px;
+	span{
+		display:none;
+	}
+}
+.point9{
+	background: $sprites2 -118px -18px;
+}
+.point8{
+	background: $sprites2 -118px -36px;
+}
+.point7{
+	background: $sprites2 -118px -54px;
+}
+.point6{
+	background: $sprites2 -118px -72px;
+}
+.point5{
+	background: $sprites2 -118px -90px;
+}
+.point4{
+	background: $sprites2 -118px -108px;
+}
+.point3{
+	background: $sprites2 -118px -126px;
+}
+.point2{
+	background: $sprites2 -118px -144px;
+}
+.point1{
+	background: $sprites2 -118px -162px;
+}
+.point0{
+	background: $sprites2 -118px -180px;
+}
+.dot{
+	display: inline-block;
+	width: 69px;
+	height: 14px;
+	background: $sprites2 -220px 0px;
+	span{
+		display:none;
+	}
+}
+.dot9{
+	background: $sprites2 -220px -14px;
+}
+.dot8{
+	background: $sprites2 -220px -28px;
+}
+.dot7{
+	background: $sprites2 -220px -42px;
+}
+.dot6{
+	background: $sprites2 -220px -56px;
+}
+.dot5{
+	background: $sprites2 -220px -70px;
+}
+.dot4{
+	background: $sprites2 -220px -84px;
+}
+.dot3{
+	background: $sprites2 -220px -98px;
+}
+.dot2{
+	background: $sprites2 -220px -112px;
+}
+.dot1{
+	background: $sprites2 -220px -126px;
+}
+.dot0{
+	background: $sprites2 -220px -140px;
+}
+.bar{
+	display: inline-block;
+	width: 69px;
+	height: 14px;
+	background: $sprites2 -289px 0px;
+	span{
+		display:none;
+	}
+}
+.bar9{
+	background: $sprites2 -289px -14px;
+}
+.bar8{
+	background: $sprites2 -289px -28px;
+}
+.bar7{
+	background: $sprites2 -289px -42px;
+}
+.bar6{
+	background: $sprites2 -289px -56px;
+}
+.bar5{
+	background: $sprites2 -289px -70px;
+}
+.bar4{
+	background: $sprites2 -289px -84px;
+}
+.bar3{
+	background: $sprites2 -289px -98px;
+}
+.bar2{
+	background: $sprites2 -289px -112px;
+}
+.bar1{
+	background: $sprites2 -289px -126px;
+}
+.bar0{
+	background: $sprites2 -289px -140px;
+}
+.raquo {
+    background: $sprites -992px -210px;
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+}
+.raquo2{
+    background: $sprites -979px -202px;
+    display: inline-block;
+    height: 8px;
+    width: 10px;
+}
+strong{
+	font-weight: 700;
+}
+.loc{
+    background: $sprites -509px -119px;
+    display: inline-block;
+    height: 11px;
+    width: 7px;	
+}
+.man{
+    background: $sprites -519px -118px;
+    display: inline-block;
+    height: 14px;
+    width: 11px;	
+}
+.i{
+    background: $sprites -521px -134px;
+    display: inline-block;
+    height: 13px;
+    width: 13px;	
+}
+.cek{
+    background: $sprites -536px -135px;
+    display: inline-block;
+    height: 11px;
+    width: 15px;	
+}
+.opt{
+	display: inline-block;
+	width: 14px;
+	height:13px;
+	background: $sprites -669px -162px;
+	cursor: pointer;
+}
+.opton{
+	background: $sprites -655px -162px;
+}
+.map4{
+    background: $sprites -831px -146px;
+    display: inline-block;
+    height: 19px;
+    width: 17px;
+}
+.map3{
+    background: $sprites -848px -146px;
+    display: inline-block;
+    height: 19px;
+    width: 18px;
+}
+.map2{
+    background: $sprites -866px -146px;
+    display: inline-block;
+    height: 19px;
+    width: 16px;
+}
+.map1{
+    background: $sprites -884px -146px;
+    display: inline-block;
+    height: 19px;
+    width: 16px;
+}
+.cloud-zoom-lens {border: 1px solid #ccc;margin:-1px;background-color:#fff;cursor:move;}
+.cloud-zoom-title {font-family:Arial, Helvetica, sans-serif;position:absolute !important;background-color:#000;color:#fff;padding:3px;width:100%;text-align:center;font-weight:bold;font-size:10px;top:0px;}
+.cloud-zoom-big {border:5px solid #fff;overflow:hidden; box-shadow: 0px 0px 4px #999; border-radius: 5px;}
+.cloud-zoom-loading {color:white;background:#222;padding:3px;border:1px solid #000;}
+
+.f0{
+    display: inline-block;
+    width: 64px;
+    vertical-align: middle;
+}
+.f1{
+    background: $sprites3 0px 0px;
+    height: 11px;
+}
+.f2{
+    background: $sprites3 0px -11px;
+    height: 18px;
+}
+.f3{
+    background: $sprites3 0px -29px;
+    height: 37px;
+}
+.f4{
+    background: $sprites3 0px -66px;
+    height: 24px;
+}
+.f5{
+    background: $sprites3 0px -90px;
+    height: 20px;
+}
+.f6{
+    background: $sprites3 0px -110px;
+    height: 30px;
+}
+.f7{
+    background: $sprites3 0px -140px;
+    height: 16px;
+}
+.f8{
+    background: $sprites3 0px -156px;
+    height: 19px;
+}
+.f9{
+    background: $sprites3 0px -175px;
+    height: 31px;
+}

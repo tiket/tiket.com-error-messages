@@ -1,0 +1,82 @@
+.hotel-sidebar{
+	width: 234px;
+	float: left;
+	h3{
+	color: #898989;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	}
+	.colpop {
+		width: 365px;
+		margin-bottom: 40px;
+		li{
+			display: inline-block;
+			margin: 0 0 10px 0;
+			img{
+				z-index:0;
+				position: relative;
+			}
+			p{
+				display: $b;
+				background: none repeat scroll 0 0 rgba(41, 47, 51, 0.7);
+				line-height: 20px;
+				color: #fff;
+				margin: -23px 0 0 0;
+				z-index: 10;
+				position: relative;
+				font-size: 10px;
+				clear: both;
+				span{
+					float: right;
+					margin-right: 5px;
+				}
+				strong{
+					font-size: 11px;
+					font-weight: 700;
+					margin-left: 5px;
+				}
+			}
+		}
+		li:hover{
+			box-shadow: 0px 0px 5px orange;
+		}
+		li:hover p{
+			background: none repeat scroll 0 0 rgba(28, 82, 130, 0.7);
+			cursor: pointer;
+		}
+	}
+	.view-hotel{
+		border: 1px solid #ddd;
+		h3{
+			font-size: 20px;
+			border-bottom: 1px solid #ddd;
+			padding: 12px;
+			margin: 0;
+		}
+		li{
+			border-bottom: 1px solid #ddd;
+			padding: 12px;
+			img{
+				float:left;
+				border: 1px solid #d0d0d0;
+				margin: 0 8px 0 0;
+			}
+			h4{
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+		li:after {
+	        content: ".";
+	        display: block;
+	        height: 0;
+	        clear: both;
+	        visibility: hidden;
+	    }
+		li:last-child{
+			border: 0;
+		}
+	}
+}

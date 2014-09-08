@@ -1,0 +1,77 @@
+/*
+Syntax error: Undefined variable: "$font".
+        on line 27 of css/result-header.scss
+
+22: 			width:305px;
+23: 		}
+24: 	}
+25: 	button{
+26: 		padding: 0 20px;
+27: 		font: 400 normal 18px/36px $font;
+28: 		margin-top: 20px;
+29: 		.raquo{
+30: 			display: inline-block;
+31: 			width: 15px;
+32: 			height: 12px;
+
+Backtrace:
+css/result-header.scss:27
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/variable.rb:49:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/list.rb:71:in `block in _perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/list.rb:71:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/list.rb:71:in `_perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.13/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$font\".\A         on line 27 of css/result-header.scss\A \A 22: 			width:305px;\A 23: 		}\A 24: 	}\A 25: 	button{\A 26: 		padding: 0 20px;\A 27: 		font: 400 normal 18px/36px $font;\A 28: 		margin-top: 20px;\A 29: 		.raquo{\A 30: 			display: inline-block;\A 31: 			width: 15px;\A 32: 			height: 12px;"; }
