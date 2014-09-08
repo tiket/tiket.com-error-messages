@@ -1,0 +1,51 @@
+$(function(){
+	animationStack=[".mountain",".igloo",".guy",".bucket",".girl"];
+	fadeStack=function(index,callback){
+		$(animationStack[index]).fadeIn(
+			"slow",
+			function(){
+				if(index+1<animationStack.length){
+					fadeStack(index+1,callback);
+				}
+				if(index+1==animationStack.length-1){
+					callback();
+				}
+			}
+		);
+	}
+	fadeStack(0,function(){
+		animateRopeLeft=function(){
+			$(".rope").rotate({
+				angle:-5,
+				animateTo:0,
+				center: ["81px",0],
+				easing: $.easing.easeInOutExpo,
+				duration:2000,
+				callback:animateRopeRight
+			});
+			$(".rope").animate({
+				height:"435px"
+			},1000);
+		};
+		animateRopeRight=function(){
+			$(".rope").rotate({
+				angle:0,
+				animateTo:-5,
+				center: ["81px",0],
+				easing: $.easing.easeInOutExpo,
+				duration:2000,
+				callback:animateRopeLeft
+			});
+			$(".rope").animate({
+				height:"432px"
+			},1000);
+		};
+		animateRopeRight();
+		$(".mountain").plaxify({"xRange":12.5,"yRange":12.5});
+		$(".igloo").plaxify({"xRange":25,"yRange":25});
+		$(".guy").plaxify({"xRange":50,"yRange":50});
+		$(".bucket").plaxify({"xRange":100,"yRange":100});
+		$(".girl").plaxify({"xRange":125,"yRange":125});
+		$.plax.enable();
+	});
+});
