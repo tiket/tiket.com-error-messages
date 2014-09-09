@@ -6,8 +6,9 @@ $waiting-room-page-sprite: url(../images/waiting-room-page-sprite.png) no-repeat
 	height:$height;
 	margin-left:$left;
 	margin-top:$top;
-	background-position-x:-$crop-left;
-	background-position-y:-$crop-top;
+	$crop-left:-$crop-left;
+	$crop-top:-$crop-top;
+	background-position:$crop-left $crop-top;
 	position:absolute;
 }
 
@@ -56,7 +57,6 @@ $waiting-room-page-sprite: url(../images/waiting-room-page-sprite.png) no-repeat
 }
 .error-page{
 	min-height: 550px;
-	//background: url(../images/balloon.png) no-repeat top right;
 	.msg{
 		width: 250px;
 		padding: 205px 0 0 0;

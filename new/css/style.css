@@ -2609,32 +2609,28 @@ header {
       height: 66px;
       margin-left: 204px;
       margin-top: 103px;
-      background-position-x: 0;
-      background-position-y: -101px;
+      background-position: 0 -101px;
       position: absolute; }
     .error-page .page-404.background .cloud-1 {
       width: 101px;
       height: 24px;
       margin-left: 135px;
       margin-top: 223px;
-      background-position-x: 0;
-      background-position-y: 0;
+      background-position: 0 0;
       position: absolute; }
     .error-page .page-404.background .cloud-2 {
       width: 85px;
       height: 20px;
       margin-left: 0;
       margin-top: 524px;
-      background-position-x: 0;
-      background-position-y: -28px;
+      background-position: 0 -28px;
       position: absolute; }
     .error-page .page-404.background .cloud-3 {
       width: 180px;
       height: 44px;
       margin-left: 468px;
       margin-top: 460px;
-      background-position-x: 0;
-      background-position-y: -53px;
+      background-position: 0 -53px;
       position: absolute; }
     .error-page .page-404.background .balloon-big {
       width: 330px;
@@ -2652,24 +2648,21 @@ header {
         height: 282px;
         margin-left: 76px;
         margin-top: 0;
-        background-position-x: -263px;
-        background-position-y: 0;
+        background-position: -263px 0;
         position: absolute; }
       .error-page .page-404.background .balloon-big .passenger {
         width: 260px;
         height: 242px;
         margin-left: 0;
         margin-top: 268px;
-        background-position-x: 0;
-        background-position-y: -167px;
+        background-position: 0 -167px;
         position: absolute; }
         .error-page .page-404.background .balloon-big .passenger .question-mark {
           width: 13px;
           height: 14px;
           margin-left: 226px;
           margin-top: 52px;
-          background-position-x: -47px;
-          background-position-y: -153px;
+          background-position: -47px -153px;
           position: absolute;
           display: none; }
         .error-page .page-404.background .balloon-big .passenger .load-1 {
@@ -2677,32 +2670,28 @@ header {
           height: 39px;
           margin-left: 104px;
           margin-top: 162px;
-          background-position-x: -47px;
-          background-position-y: -101px;
+          background-position: -47px -101px;
           position: absolute; }
         .error-page .page-404.background .balloon-big .passenger .load-2 {
           width: 29px;
           height: 39px;
           margin-left: 178px;
           margin-top: 162px;
-          background-position-x: -76px;
-          background-position-y: -101px;
+          background-position: -76px -101px;
           position: absolute; }
         .error-page .page-404.background .balloon-big .passenger .load-3 {
           width: 42px;
           height: 39px;
           margin-left: 236px;
           margin-top: 158px;
-          background-position-x: -105px;
-          background-position-y: -101px;
+          background-position: -105px -101px;
           position: absolute; }
       .error-page .page-404.background .balloon-big .load-4 {
         width: 33px;
         height: 39px;
         margin-left: 244px;
         margin-top: 409px;
-        background-position-x: -147px;
-        background-position-y: -101px;
+        background-position: -147px -101px;
         position: absolute; }
 
 .waiting-room.background {
@@ -2716,8 +2705,7 @@ header {
     height: 82px;
     margin-left: 0;
     margin-top: 156px;
-    background-position-x: 0;
-    background-position-y: -454px;
+    background-position: 0 -454px;
     position: absolute;
     display: none; }
   .waiting-room.background .wrap {
@@ -2730,40 +2718,35 @@ header {
       height: 211px;
       margin-left: 359px;
       margin-top: 56px;
-      background-position-x: -739px;
-      background-position-y: 0;
+      background-position: -739px 0;
       position: absolute; }
     .waiting-room.background .wrap .guy {
       width: 143px;
       height: 373px;
       margin-left: 543px;
       margin-top: 0;
-      background-position-x: -480px;
-      background-position-y: 0;
+      background-position: -480px 0;
       position: absolute; }
     .waiting-room.background .wrap .bucket {
       width: 69px;
       height: 59px;
       margin-left: 124px;
       margin-top: 351px;
-      background-position-x: -739px;
-      background-position-y: -239px;
+      background-position: -739px -239px;
       position: absolute; }
     .waiting-room.background .wrap .girl {
       width: 461px;
       height: 437px;
       margin-left: 0;
       margin-top: 20px;
-      background-position-x: 0;
-      background-position-y: 0;
+      background-position: 0 0;
       position: absolute; }
       .waiting-room.background .wrap .girl .rope {
         width: 81px;
         height: 432px;
         margin-left: 50px;
         margin-top: 0;
-        background-position-x: -637px;
-        background-position-y: 0;
+        background-position: -637px 0;
         position: absolute;
         display: block; }
 
