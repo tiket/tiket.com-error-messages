@@ -46,4 +46,5 @@ $(function(){
 			animateLoadRight();
 		}
 	);
+	$("a.a").attr("href","//www.tiket.com");
 });

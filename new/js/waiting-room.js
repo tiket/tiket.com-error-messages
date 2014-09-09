@@ -48,4 +48,5 @@ $(function(){
 		$(".girl").plaxify({"xRange":125,"yRange":125});
 		$.plax.enable();
 	});
+	$("a.a").attr("href","//www.tiket.com");
 });
